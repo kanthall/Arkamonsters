@@ -1,0 +1,1615 @@
+fileFormatVersion: 2
+guid: d9292a8c2880a6a45bafdc5073792524
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1144354566084772815
+    second: Skull-die_0
+  - first:
+      213: 1030876275741666193
+    second: Skull-die_1
+  - first:
+      213: -4426244005254986136
+    second: Skull-die_2
+  - first:
+      213: 9098267482932135909
+    second: Skull-die_3
+  - first:
+      213: 3955858244995905900
+    second: Skull-die_4
+  - first:
+      213: 7492020351718093869
+    second: Skull-die_5
+  - first:
+      213: -4325662229413381027
+    second: Skull-die_6
+  - first:
+      213: 125917971848639404
+    second: Skull-die_7
+  - first:
+      213: 8887887657069222635
+    second: Skull-die_8
+  - first:
+      213: 3639005281849259806
+    second: Skull-die_9
+  - first:
+      213: -7899834256238685768
+    second: Skull-die_10
+  - first:
+      213: -2712816798318440824
+    second: Skull-die_11
+  - first:
+      213: -1103314661998382885
+    second: Skull-die_12
+  - first:
+      213: -5519499314411108345
+    second: Skull-die_13
+  - first:
+      213: 4096134032654325251
+    second: Skull-die_14
+  - first:
+      213: -7800997247075428103
+    second: Skull-die_15
+  - first:
+      213: 6362924755903237644
+    second: Skull-die_16
+  - first:
+      213: -4235752989539236679
+    second: Skull-die_17
+  - first:
+      213: 8923039703669327959
+    second: Skull-die_18
+  - first:
+      213: 5381638812996359623
+    second: Skull-die_19
+  - first:
+      213: 7670906145566184704
+    second: Skull-die_20
+  - first:
+      213: 5671351156832135786
+    second: Skull-die_21
+  - first:
+      213: 4318933927745104438
+    second: Skull-die_22
+  - first:
+      213: -8061109023266572384
+    second: Skull-die_23
+  - first:
+      213: 1988217124336331487
+    second: Skull-die_24
+  - first:
+      213: 3998386812527174875
+    second: Skull-die_25
+  - first:
+      213: -3787054760445990365
+    second: Skull-die_26
+  - first:
+      213: -3860814821291228465
+    second: Skull-die_27
+  - first:
+      213: -2457438480286811791
+    second: Skull-die_28
+  - first:
+      213: -877795863598019236
+    second: Skull-die_29
+  - first:
+      213: 376334733658063524
+    second: Skull-die_30
+  - first:
+      213: 4533579625046461186
+    second: Skull-die_31
+  - first:
+      213: 869622439775073550
+    second: Skull-die_32
+  - first:
+      213: -5337660901075611793
+    second: Skull-die_33
+  - first:
+      213: 5143435289711465532
+    second: Skull-die_34
+  - first:
+      213: -3511026028278693579
+    second: Skull-die_35
+  - first:
+      213: -2864127675652765000
+    second: Skull-die_36
+  - first:
+      213: 1575243166223220500
+    second: Skull-die_37
+  - first:
+      213: -1197640817807029598
+    second: Skull-die_38
+  - first:
+      213: -2250211851222292706
+    second: Skull-die_39
+  - first:
+      213: -2495604685607645150
+    second: Skull-die_40
+  - first:
+      213: 1280767581875988896
+    second: Skull-die_41
+  - first:
+      213: -6753192644801226940
+    second: Skull-die_42
+  - first:
+      213: 7202326814817346804
+    second: Skull-die_43
+  - first:
+      213: -8186016114234287700
+    second: Skull-die_44
+  - first:
+      213: 7699692463916833034
+    second: Skull-die_45
+  - first:
+      213: 6045594220395362060
+    second: Skull-die_46
+  - first:
+      213: -7842346165695305197
+    second: Skull-die_47
+  - first:
+      213: 1514747704086558053
+    second: Skull-die_48
+  - first:
+      213: -8320079181431392712
+    second: Skull-die_49
+  - first:
+      213: -209368762424177172
+    second: Skull-die_50
+  - first:
+      213: 7526608419560657315
+    second: Skull-die_51
+  - first:
+      213: 1600237732039768025
+    second: Skull-die_52
+  - first:
+      213: -6342233349447584119
+    second: Skull-die_53
+  - first:
+      213: -8772690524090487921
+    second: Skull-die_54
+  - first:
+      213: 9009888935945862803
+    second: Skull-die_55
+  - first:
+      213: 5015872278077880766
+    second: Skull-die_56
+  - first:
+      213: 7911530377703819387
+    second: Skull-die_57
+  - first:
+      213: -6909005039882401663
+    second: Skull-die_58
+  - first:
+      213: -4985423227404545257
+    second: Skull-die_59
+  - first:
+      213: 2025450111021333211
+    second: Skull-die_60
+  - first:
+      213: 4474994203661453997
+    second: Skull-die_61
+  - first:
+      213: 1987979926184656832
+    second: Skull-die_62
+  - first:
+      213: 9068809265982110859
+    second: Skull-die_63
+  - first:
+      213: -8498457194231520562
+    second: Skull-die_64
+  - first:
+      213: 4661664798133884705
+    second: Skull-die_65
+  - first:
+      213: 8995658734525019509
+    second: Skull-die_66
+  - first:
+      213: 5621615580355983947
+    second: Skull-die_67
+  - first:
+      213: 8679560026751714879
+    second: Skull-die_68
+  - first:
+      213: 2305919280495725116
+    second: Skull-die_69
+  - first:
+      213: 6108944402565646464
+    second: Skull-die_70
+  - first:
+      213: 4639815004647017619
+    second: Skull-die_71
+  - first:
+      213: -3544061855920642133
+    second: Skull-die_72
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Skull-die_0
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 951
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a973eb73f9b5a814c976eae2d4016257
+      internalID: 1144354566084772815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skull-die_1
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 951
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b7c6217d5cc99b448df020254ca2b0d
+      internalID: 1030876275741666193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skull-die_2
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 951
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a2af86aa3754ae468cde7cd6a9ad7af
+      internalID: -4426244005254986136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skull-die_3
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 951
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4ed120ff0272b240bd96aa3da99f79a
+      internalID: 9098267482932135909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skull-die_4
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 951
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cb1922d06884e648850b3fa5cbe8a47
+      internalID: 3955858244995905900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skull-die_5
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 951
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db8e5c6d1ea8b694dabd68076a509876
+      internalID: 7492020351718093869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skull-die_6
+      rect:
+        serializedVersion: 2
+        x: 826
+        y: 951
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c304beea18bf9e45a430575ae9cb9c8
+      internalID: -4325662229413381027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skull-die_7
+      rect:
+        serializedVersion: 2
+        x: 954
+        y: 951
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6c28d7c4c4199d40a4ef0e28f5324b6
+      internalID: 125917971848639404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skull-die_8
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 823
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5f83a5c9613dde4a82c387301dd53b6
+      internalID: 8887887657069222635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skull-die_9
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 823
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b05baed68c10354ca403a5d3daa6bae
+      internalID: 3639005281849259806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skull-die_10
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 823
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba65305ad66b3a245bb7e76a59e97f5f
+      internalID: -7899834256238685768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skull-die_11
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 823
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63d96e7336a5ee542a6d207cac648be3
+      internalID: -2712816798318440824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skull-die_12
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 823
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cd99faae7030e14ba592c2505aa6dad
+      internalID: -1103314661998382885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skull-die_13
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 823
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36c3fe5ff107f9d438bd54ab66472bf8
+      internalID: -5519499314411108345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skull-die_14
+      rect:
+        serializedVersion: 2
+        x: 826
+        y: 823
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20544ec5a118b0d48ae660467e8a7c99
+      internalID: 4096134032654325251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skull-die_15
+      rect:
+        serializedVersion: 2
+        x: 954
+        y: 823
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebb545d3f11402e4495b9944e369a5c0
+      internalID: -7800997247075428103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skull-die_16
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 695
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0f9fcd7194bac34dafe45496b2d5b34
+      internalID: 6362924755903237644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skull-die_17
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 695
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e193a15d1745f164897c7d617db1bfd5
+      internalID: -4235752989539236679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skull-die_18
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 695
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb5f02be11e1f8d44b4dd32e590f1963
+      internalID: 8923039703669327959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skull-die_19
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 695
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 214b8a3c48c86484891855dfe86a8dc6
+      internalID: 5381638812996359623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skull-die_20
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 695
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f7f2aaf178963c4297ec6d1de890270
+      internalID: 7670906145566184704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skull-die_21
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 695
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68de6041ab8800c46b721dbd1dcffa94
+      internalID: 5671351156832135786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skull-die_22
+      rect:
+        serializedVersion: 2
+        x: 826
+        y: 695
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38f95ae91a1d5344bb8ec39ddcfcad13
+      internalID: 4318933927745104438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skull-die_23
+      rect:
+        serializedVersion: 2
+        x: 954
+        y: 695
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc27a155110b2a34ca5509d2b5e0e20a
+      internalID: -8061109023266572384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skull-die_24
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 567
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29697cf66c17bb94a89121a1126bfc8d
+      internalID: 1988217124336331487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skull-die_25
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 567
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1cf29394bfb64643b482275bb511685
+      internalID: 3998386812527174875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skull-die_26
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 567
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b356f240f577194fa5ddee9fe69b98d
+      internalID: -3787054760445990365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skull-die_27
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 567
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d63ff0f13d12454689e97f7a807a91b
+      internalID: -3860814821291228465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skull-die_28
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 567
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 296469428a779ec4097c9e660c253fa8
+      internalID: -2457438480286811791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skull-die_29
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 567
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0e88ac717e0dd04d94e1c629b980d2f
+      internalID: -877795863598019236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skull-die_30
+      rect:
+        serializedVersion: 2
+        x: 826
+        y: 567
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75d4bea064d7d0543a82450a042a5325
+      internalID: 376334733658063524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skull-die_31
+      rect:
+        serializedVersion: 2
+        x: 954
+        y: 567
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4aac48d9ebb71ad47a5589e14a8e0ddd
+      internalID: 4533579625046461186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skull-die_32
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 439
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 341419bb7fa5b6844b730dab058d4814
+      internalID: 869622439775073550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skull-die_33
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 439
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5a65e3ad5d163f44a24d35ad601f83c
+      internalID: -5337660901075611793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skull-die_34
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 439
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d9c76078a390ff4a9dee7c77701bf3c
+      internalID: 5143435289711465532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skull-die_35
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 439
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29b0dbbfb8dd5fe47ba8252973f428fb
+      internalID: -3511026028278693579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skull-die_36
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 439
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b52230095799f64092585e8c0cee50f
+      internalID: -2864127675652765000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skull-die_37
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 439
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef36fb8227f0ebe42ad487188451f242
+      internalID: 1575243166223220500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skull-die_38
+      rect:
+        serializedVersion: 2
+        x: 826
+        y: 439
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6123de2fe3fc1fe4eab5120fc327c657
+      internalID: -1197640817807029598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skull-die_39
+      rect:
+        serializedVersion: 2
+        x: 954
+        y: 439
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21020af2556c90b4490f24764a093d50
+      internalID: -2250211851222292706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skull-die_40
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 311
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc6bed47266ccae429a3f73fdddbc30a
+      internalID: -2495604685607645150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skull-die_41
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 311
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fb73404dac1a964d966c1d4333c0300
+      internalID: 1280767581875988896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skull-die_42
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 311
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f29522285e47eec4799dab42505930f7
+      internalID: -6753192644801226940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skull-die_43
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 310
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50908344432480242a60f5c3832f8e9f
+      internalID: 7202326814817346804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skull-die_44
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 309
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 399a7066149c54f4988ed8f46565692a
+      internalID: -8186016114234287700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skull-die_45
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 308
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76fdbc52e156da2488b7723a069b777c
+      internalID: 7699692463916833034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skull-die_46
+      rect:
+        serializedVersion: 2
+        x: 826
+        y: 308
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 579b996048e70f34fb97f217637e082c
+      internalID: 6045594220395362060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skull-die_47
+      rect:
+        serializedVersion: 2
+        x: 954
+        y: 307
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b20044e5207a114cbbfd846c13bf751
+      internalID: -7842346165695305197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skull-die_50
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 178
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdf96f5988b42ec44bc113831304a5fb
+      internalID: -209368762424177172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skull-die_51
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 177
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 095d3e7f61304c2458ec5890eb5d29b6
+      internalID: 7526608419560657315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skull-die_52
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 176
+        width: 14
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22cf859ef177f3e48ac786913f4c1fd7
+      internalID: 1600237732039768025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skull-die_53
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 176
+        width: 14
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7ffd7b0f8ccb76488d091e479d6ad48
+      internalID: -6342233349447584119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skull-die_54
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 175
+        width: 14
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0539ad64076b59941afe4501594d74ad
+      internalID: -8772690524090487921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skull-die_55
+      rect:
+        serializedVersion: 2
+        x: 697
+        y: 174
+        width: 15
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9b839a9017de8f48ad332eafc288c3e
+      internalID: 9009888935945862803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skull-die_56
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 173
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f35b986382dcdf4490a6622287ca54d
+      internalID: 5015872278077880766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skull-die_57
+      rect:
+        serializedVersion: 2
+        x: 953
+        y: 173
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 827083f0fff4edd4388352b49b13ef15
+      internalID: 7911530377703819387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skull-die_68
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 43
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7471b74e99660c74eb02be5aff3dfaa5
+      internalID: 8679560026751714879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skull-die_69
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 43
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37e9a5c005adfbe4280f8c2bc33c66b5
+      internalID: 2305919280495725116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skull-die_70
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 44
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d3f1c94b596b2843b1d2345355bc62d
+      internalID: 6108944402565646464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skull-die_71
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 44
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 031552fa9ceb5f041b96b6a4d6a765a4
+      internalID: 4639815004647017619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skull-die_72
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 58
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38b233f4eccab6a4bb8836659bbbcaae
+      internalID: -3544061855920642133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
