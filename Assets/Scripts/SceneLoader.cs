@@ -1,17 +1,38 @@
-﻿using UnityEngine.SceneManagement;
-using UnityEngine;
+﻿using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class SceneLoader : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    private void Update()
     {
-        
+        if(Input.GetKeyDown(KeyCode.G))
+        {
+            GameOver();
+        }
+
+        if (Input.GetKeyDown(KeyCode.N))
+        {
+            NextLevel();
+        }
     }
 
-    // Update is called once per frame
-    void Update()
+    public void NextLevel()
     {
-        
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+    }
+
+    public void GameOver()
+    {
+        SceneManager.LoadScene("4Scene_GameOver");
+    }
+
+    public void Credits()
+    {
+        SceneManager.LoadScene("5Scene_Credits");
+    }
+
+    public void QuitGame()
+    {
+        Application.Quit();
     }
 }

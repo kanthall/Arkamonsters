@@ -2,22 +2,16 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MonsterHealth : MonoBehaviour
+public class Heart : MonoBehaviour
 {
-    [SerializeField] int health;
     LevelManager level;
 
     void Start()
     {
         level = FindObjectOfType<LevelManager>();
-        if(tag == "Monster")
+        if (tag == "Heart")
         {
-            level.MonstersCount();
+            level.PlayerHealthCount();
         }
-    }
-
-    void Update()
-    {
-        
     }
 }

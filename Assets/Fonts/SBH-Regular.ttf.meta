@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: c147bd833bf0e2142aa49b0457e9e6e5
+guid: e933a3e1b3cc8bc42833073f39aa1e4a
 TrueTypeFontImporter:
   externalObjects: {}
   serializedVersion: 4
@@ -8,10 +8,11 @@ TrueTypeFontImporter:
   characterSpacing: 0
   characterPadding: 1
   includeFontData: 1
-  fontName: PixelBreack
+  fontName: SBH
   fontNames:
-  - PixelBreack
-  fallbackFontReferences: []
+  - SBH
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 2e12bc54f7dfabb48b0862633f7afabe, type: 3}
   customCharacters: 
   fontRenderingMode: 0
   ascentCalculationMode: 1
