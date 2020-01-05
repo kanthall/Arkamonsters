@@ -5,7 +5,11 @@ using UnityEngine;
 public class MonsterHealth : MonoBehaviour
 {
     [SerializeField] int health;
+    [SerializeField] int scoreValue;
+    [SerializeField] GameObject deathParticle;
+
     LevelManager level;
+    Score score;
 
     void Start()
     {
@@ -14,10 +18,38 @@ public class MonsterHealth : MonoBehaviour
         {
             level.MonstersCount();
         }
+
+        score = FindObjectOfType<Score>();
+    }
+    
+    void DealDamage()
+    {
+        health = health - 1;
     }
 
-    void Update()
+    private void OnCollisionEnter2D(Collision2D collision)
     {
-        
+        if (collision.collider.tag == "Ball")
+        {
+            if (health > 0)
+            {
+                DealDamage();
+            }
+            else
+            {
+                DestroyMonster();
+            }
+        }
+    }
+
+    private void DestroyMonster()
+    {
+        GameObject ps = Instantiate(deathParticle, transform.position, Quaternion.identity);
+        Destroy(ps, 2f);
+
+        score.AddToScore(scoreValue);
+        Object.Destroy(gameObject);
+
+        level.MonsterKilled();
     }
 }

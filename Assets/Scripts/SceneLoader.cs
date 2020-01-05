@@ -3,6 +3,15 @@ using UnityEngine.SceneManagement;
 
 public class SceneLoader : MonoBehaviour
 {
+    LevelManager level;
+    int monsters;
+    Score score;
+
+    private void Start()
+    {
+        score = FindObjectOfType<Score>();
+    }
+
     private void Update()
     {
         if(Input.GetKeyDown(KeyCode.G))
@@ -14,6 +23,18 @@ public class SceneLoader : MonoBehaviour
         {
             NextLevel();
         }
+
+        if (monsters < 0)
+        {
+            NextLevel();
+        }
+
+        if(Input.GetKeyDown(KeyCode.R))
+        {
+            int currentScene = SceneManager.GetActiveScene().buildIndex;
+            SceneManager.LoadScene(currentScene);
+            score.ReloadScore();
+        }
     }
 
     public void NextLevel()
@@ -23,6 +44,7 @@ public class SceneLoader : MonoBehaviour
 
     public void GameOver()
     {
+        score.ReloadScore();
         SceneManager.LoadScene("4Scene_GameOver");
     }
 

@@ -3,12 +3,14 @@ using UnityEngine;
 
 public class LevelManager : MonoBehaviour
 {
-    [SerializeField] int monsters;
-    [SerializeField] int hearts;
+    [SerializeField] public int monsters;
+    //[SerializeField] int hearts;
 
-    void Start()
+    SceneLoader scene;
+
+    private void Start()
     {
-
+        scene = FindObjectOfType<SceneLoader>();
     }
 
     public void MonstersCount()
@@ -16,8 +18,17 @@ public class LevelManager : MonoBehaviour
         monsters++;
     }
 
-    public void PlayerHealthCount()
+    public void MonsterKilled()
     {
-        hearts++;
+        monsters--;
+        if (monsters <= 0)
+        {
+            scene.GameOver();
+        }
     }
+
+    //public void PlayerHealthCount()
+    //{
+    //    hearts++;
+    //}
 }

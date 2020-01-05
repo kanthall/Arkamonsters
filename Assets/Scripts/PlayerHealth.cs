@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PlayerHealth : MonoBehaviour
 {
-    [SerializeField] int health; 
+    [SerializeField] public GameObject[] hearts;
 
 
     void Start()
@@ -12,9 +12,10 @@ public class PlayerHealth : MonoBehaviour
         
     }
 
-    // Update is called once per frame
     void Update()
     {
         
     }
+
+
 }
