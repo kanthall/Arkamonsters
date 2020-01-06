@@ -17,6 +17,7 @@ public class Score : MonoBehaviour
 
     public void AddToScore(int score)
     {
+        scoreField.text += score;
         Debug.Log("adding score: " + score);
     }
     

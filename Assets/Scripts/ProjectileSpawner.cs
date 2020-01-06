@@ -5,17 +5,11 @@ using UnityEngine;
 public class ProjectileSpawner : MonoBehaviour
 {
     [SerializeField]Transform spawnerPosition;
-
+    [SerializeField] GameObject projectile;
     
     void Start()
     {
-        
-    }
-
-    
-    void Update()
-    {
-        
+        //Instantiate(projectile, transform.position, Quaternion.identity);
     }
 
     

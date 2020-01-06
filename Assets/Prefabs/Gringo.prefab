@@ -134,8 +134,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 1
-  scoreValue: 0
-  deathParticle: {fileID: 0}
+  scoreValue: 5
+  deathParticle: {fileID: 3157749782088636855, guid: 6fa1a444783adda4b94595f002a76841,
+    type: 3}
 --- !u!114 &6064990532101096054
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -149,6 +150,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnerPosition: {fileID: 8562762602047740519}
+  projectile: {fileID: 4180457757119885711, guid: 239dfebe3574c1a4a862307162253c58,
+    type: 3}
 --- !u!1 &4826252420337112719
 GameObject:
   m_ObjectHideFlags: 0

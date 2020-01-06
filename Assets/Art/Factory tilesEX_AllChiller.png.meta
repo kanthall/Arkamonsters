@@ -94,7 +94,7 @@ TextureImporter:
     second: _heart
   - first:
       213: 5237135075397780143
-    second: factory tilesEX_AllChiller_30
+    second: _temporary_projectile
   - first:
       213: 6521294697935355728
     second: factory tilesEX_AllChiller_31
@@ -1496,7 +1496,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: factory tilesEX_AllChiller_30
+      name: _temporary_projectile
       rect:
         serializedVersion: 2
         x: 224

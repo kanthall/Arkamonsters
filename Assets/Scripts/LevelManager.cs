@@ -4,7 +4,6 @@ using UnityEngine;
 public class LevelManager : MonoBehaviour
 {
     [SerializeField] public int monsters;
-    //[SerializeField] int hearts;
 
     SceneLoader scene;
 
@@ -26,9 +25,4 @@ public class LevelManager : MonoBehaviour
             scene.GameOver();
         }
     }
-
-    //public void PlayerHealthCount()
-    //{
-    //    hearts++;
-    //}
 }

@@ -29,10 +29,13 @@ public class MonsterHealth : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
+        //Debug.Log("you hit me");
+
         if (collision.collider.tag == "Ball")
         {
             if (health > 0)
             {
+                Debug.Log("damage");
                 DealDamage();
             }
             else
@@ -49,7 +52,6 @@ public class MonsterHealth : MonoBehaviour
 
         score.AddToScore(scoreValue);
         Object.Destroy(gameObject);
-
         level.MonsterKilled();
     }
 }
