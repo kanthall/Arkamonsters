@@ -7,7 +7,7 @@ public class Ball : MonoBehaviour
     [Header("Movement")]
     [SerializeField] float xPush = 2f;
     [SerializeField] float yPush = 15f;
-    [SerializeField] float randomFactor = 0.3f;
+    [SerializeField] float randomFactor = 0.5f;
 
     [Space(10)]
     [SerializeField] Paddle paddle;

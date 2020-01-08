@@ -7,22 +7,28 @@ public class Score : MonoBehaviour
 {
 
     int startingScore = 0;
-    int currentScore; 
+    [SerializeField] int score; 
     [SerializeField] Text scoreField;
     
     void Start()
     {
-        scoreField.text = startingScore.ToString();
+        score = 0;
+        UpdateScore();
     }
 
-    public void AddToScore(int score)
+    public void AddToScore(int points)
     {
-        scoreField.text += score;
-        Debug.Log("adding score: " + score);
+        score += points;
+        UpdateScore();
     }
     
     public void ReloadScore()
     {
         scoreField.text = startingScore.ToString();
+    }
+
+    void UpdateScore()
+    {
+        scoreField.text = "" + score;
     }
 }

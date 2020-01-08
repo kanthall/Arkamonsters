@@ -8,12 +8,15 @@ public class MonsterHealth : MonoBehaviour
     [SerializeField] int scoreValue;
     [SerializeField] GameObject deathParticle;
 
+    ProjectileSpawner spawner;
     LevelManager level;
     Score score;
 
     void Start()
     {
         level = FindObjectOfType<LevelManager>();
+        spawner = GetComponent<ProjectileSpawner>();
+
         if(tag == "Monster")
         {
             level.MonstersCount();
@@ -29,19 +32,16 @@ public class MonsterHealth : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        //Debug.Log("you hit me");
-
-        if (collision.collider.tag == "Ball")
+        if (collision.gameObject.tag.Equals("Ball"))
         {
-            if (health > 0)
+            Debug.Log("damage");
+            DealDamage();
+
+            if (health <= 0)
             {
-                Debug.Log("damage");
-                DealDamage();
-            }
-            else
-            {
+                spawner.SpawnOnDeath();
                 DestroyMonster();
-            }
+            } 
         }
     }
 
@@ -51,6 +51,7 @@ public class MonsterHealth : MonoBehaviour
         Destroy(ps, 2f);
 
         score.AddToScore(scoreValue);
+        Debug.Log("adding points" + scoreValue);
         Object.Destroy(gameObject);
         level.MonsterKilled();
     }

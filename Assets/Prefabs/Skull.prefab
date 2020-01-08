@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 6594758448669487904}
   - component: {fileID: 4538669227402577716}
   - component: {fileID: 7666248956157492485}
+  - component: {fileID: 941400949476426955}
   m_Layer: 0
   m_Name: Skull
   m_TagString: Monster
@@ -152,6 +153,27 @@ MonoBehaviour:
   spawnerPosition: {fileID: 34751490077713192}
   projectile: {fileID: 4180457757119885711, guid: 239dfebe3574c1a4a862307162253c58,
     type: 3}
+--- !u!50 &941400949476426955
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3974705370012488121}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 1
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
 --- !u!1 &4421834827781157794
 GameObject:
   m_ObjectHideFlags: 0

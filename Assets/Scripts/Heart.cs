@@ -8,10 +8,10 @@ public class Heart : MonoBehaviour
 
     void Start()
     {
-        //level = FindObjectOfType<LevelManager>();
-        //if (tag == "Heart")
-        //{
-        //    level.PlayerHealthCount();
-        //}
+        level = FindObjectOfType<LevelManager>();
+        if (tag == "Heart")
+        {
+            level.PlayerHealthCount();
+        }
     }
 }

@@ -4,6 +4,7 @@ using UnityEngine;
 public class LevelManager : MonoBehaviour
 {
     [SerializeField] public int monsters;
+    [SerializeField] public int hearts;
 
     SceneLoader scene;
 
@@ -21,6 +22,20 @@ public class LevelManager : MonoBehaviour
     {
         monsters--;
         if (monsters <= 0)
+        {
+            scene.GameOver();
+        }
+    }
+
+    public void PlayerHealthCount()
+    {
+        hearts++;
+    }
+
+    public void LifeLost()
+    {
+        hearts--;
+        if (hearts <= 0)
         {
             scene.GameOver();
         }
