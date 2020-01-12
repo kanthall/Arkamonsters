@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using UnityEngine.SceneManagement;
+using System.Collections;
 
 public class SceneLoader : MonoBehaviour
 {
@@ -7,9 +8,12 @@ public class SceneLoader : MonoBehaviour
     int monsters;
     Score score;
 
+    IEnumerator coroutine;
+
     private void Start()
     {
         score = FindObjectOfType<Score>();
+        coroutine = WaitBeforeGameOver(2);
     }
 
     private void Update()
@@ -40,11 +44,13 @@ public class SceneLoader : MonoBehaviour
     public void NextLevel()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        StartCoroutine(coroutine);
     }
 
     public void GameOver()
     {
         score.ReloadScore();
+        StartCoroutine(coroutine);
         SceneManager.LoadScene("4Scene_GameOver");
     }
 
@@ -56,5 +62,10 @@ public class SceneLoader : MonoBehaviour
     public void QuitGame()
     {
         Application.Quit();
+    }
+
+    IEnumerator WaitBeforeGameOver(int waitTime)
+    {
+        yield return new WaitForSeconds(waitTime);
     }
 }

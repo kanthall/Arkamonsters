@@ -6,6 +6,7 @@ public class ProjectileSpawner : MonoBehaviour
 {
     [SerializeField] Transform spawnerPosition;
     [SerializeField] GameObject projectile;
+    [SerializeField] int spawn = 0;
     
     void Start()
     {
@@ -14,6 +15,10 @@ public class ProjectileSpawner : MonoBehaviour
 
     public void SpawnOnDeath()
     {
-        Instantiate(projectile, transform.position, Quaternion.identity);
+        if (spawn == 0)
+        {
+            Instantiate(projectile, transform.position, Quaternion.identity);
+            spawn = 1;
+        }
     }
 }

@@ -7,6 +7,9 @@ TagManager:
   - Monster
   - Heart
   - Ball
+  - Paddle
+  - Projectile
+  - Wall
   layers:
   - Default
   - TransparentFX

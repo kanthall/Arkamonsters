@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 5775854531237710260}
   - component: {fileID: 1083838756}
   - component: {fileID: 7259061144927973979}
-  - component: {fileID: 6064990532101096054}
+  - component: {fileID: 5679720199379677248}
   m_Layer: 0
   m_Name: Gringo
   m_TagString: Monster
@@ -132,7 +132,7 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1979931725172700506}
-  m_Enabled: 0
+  m_Enabled: 1
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: 7801b291b79fd6249a521cfa5b842247, type: 2}
   m_CullingMode: 0
@@ -159,7 +159,8 @@ MonoBehaviour:
   scoreValue: 5
   deathParticle: {fileID: 3157749782088636855, guid: 6fa1a444783adda4b94595f002a76841,
     type: 3}
---- !u!114 &6064990532101096054
+  animator: {fileID: 0}
+--- !u!114 &5679720199379677248
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -174,6 +175,7 @@ MonoBehaviour:
   spawnerPosition: {fileID: 8562762602047740519}
   projectile: {fileID: 4180457757119885711, guid: 239dfebe3574c1a4a862307162253c58,
     type: 3}
+  spawn: 0
 --- !u!1 &4826252420337112719
 GameObject:
   m_ObjectHideFlags: 0

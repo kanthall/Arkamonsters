@@ -7,6 +7,8 @@ public class MonsterHealth : MonoBehaviour
     [SerializeField] int health;
     [SerializeField] int scoreValue;
     [SerializeField] GameObject deathParticle;
+    [SerializeField] Animator animator;
+    [SerializeField] bool killLock;
 
     ProjectileSpawner spawner;
     LevelManager level;
@@ -16,6 +18,7 @@ public class MonsterHealth : MonoBehaviour
     {
         level = FindObjectOfType<LevelManager>();
         spawner = GetComponent<ProjectileSpawner>();
+        animator = GetComponent<Animator>();
 
         if(tag == "Monster")
         {
@@ -34,25 +37,33 @@ public class MonsterHealth : MonoBehaviour
     {
         if (collision.gameObject.tag.Equals("Ball"))
         {
-            Debug.Log("damage");
             DealDamage();
+            //Debug.Log("damage dealt to the monster: " + gameObject.name);
 
             if (health <= 0)
             {
+                animator.SetTrigger("Die");
                 spawner.SpawnOnDeath();
                 DestroyMonster();
-            } 
+            }
+            else
+            {
+                animator.SetTrigger("Hit");
+            }
         }
     }
 
     private void DestroyMonster()
     {
-        GameObject ps = Instantiate(deathParticle, transform.position, Quaternion.identity);
-        Destroy(ps, 2f);
-
-        score.AddToScore(scoreValue);
-        Debug.Log("adding points" + scoreValue);
-        Object.Destroy(gameObject);
-        level.MonsterKilled();
+        //GameObject ps = Instantiate(deathParticle, transform.position, Quaternion.identity);
+        //Destroy(ps, 1f);
+        if (killLock == false)
+        {
+            killLock = true;
+            score.AddToScore(scoreValue);
+            //Debug.Log("adding points: " + scoreValue);
+            Object.Destroy(gameObject, 2f);
+            level.MonsterKilled();
+        }
     }
 }

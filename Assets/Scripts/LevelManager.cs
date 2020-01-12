@@ -4,7 +4,7 @@ using UnityEngine;
 public class LevelManager : MonoBehaviour
 {
     [SerializeField] public int monsters;
-    [SerializeField] public int hearts;
+    int hearts;
 
     SceneLoader scene;
 
@@ -23,7 +23,7 @@ public class LevelManager : MonoBehaviour
         monsters--;
         if (monsters <= 0)
         {
-            scene.GameOver();
+            scene.NextLevel();
         }
     }
 

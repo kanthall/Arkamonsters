@@ -111,7 +111,7 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3974705370012488121}
-  m_Enabled: 0
+  m_Enabled: 1
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: d466cafb9964ffa498223937734a7281, type: 2}
   m_CullingMode: 0
@@ -138,6 +138,7 @@ MonoBehaviour:
   scoreValue: 10
   deathParticle: {fileID: 3157749782088636855, guid: 6fa1a444783adda4b94595f002a76841,
     type: 3}
+  animator: {fileID: 0}
 --- !u!114 &7666248956157492485
 MonoBehaviour:
   m_ObjectHideFlags: 0

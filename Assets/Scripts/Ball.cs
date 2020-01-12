@@ -33,6 +33,7 @@ public class Ball : MonoBehaviour
         if(!gameStarted)
         {
             LaunchBall();
+            LockBallTopaddle();
         }
     }
 
@@ -54,12 +55,18 @@ public class Ball : MonoBehaviour
 
     void OnCollisionEnter2D(Collision2D collision)
     {
-        Vector2 velocityTweak = new Vector2(Random.Range(0f, randomFactor), Random.Range(0f, randomFactor));
+        if (collision.collider.tag.Equals("Projectile"))
+            {
+            Debug.Log("projectile");
+            }
+        else {
+            Vector2 velocityTweak = new Vector2(Random.Range(0.1f, randomFactor), Random.Range(0.1f, randomFactor));
 
-        if(gameStarted)
-        {
-            audio.PlayOneShot(ballHitSound);
-            ballRigidBody2D.velocity += velocityTweak;
+            if (gameStarted)
+            {
+                audio.PlayOneShot(ballHitSound);
+                ballRigidBody2D.velocity += velocityTweak;
+            }
         }
     }
 }
