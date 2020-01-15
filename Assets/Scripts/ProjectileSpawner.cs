@@ -6,7 +6,7 @@ public class ProjectileSpawner : MonoBehaviour
 {
     [SerializeField] Transform spawnerPosition;
     [SerializeField] GameObject projectile;
-    [SerializeField] int spawn = 0;
+    int spawn = 0;
     
     void Start()
     {

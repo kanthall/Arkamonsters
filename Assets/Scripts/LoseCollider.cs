@@ -9,21 +9,17 @@ public class LoseCollider : MonoBehaviour
 
     private void Start()
     {
-        health = GetComponent<PlayerHealth>();
-        scene = GetComponent<SceneLoader>();
-        paddle = GetComponent<Paddle>();
-
+        health = FindObjectOfType<PlayerHealth>();
+        scene = FindObjectOfType<SceneLoader>();
+        paddle = FindObjectOfType<Paddle>();
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        //decrease health
-
-
-
-        //load game over
-        //scene.GameOver();
-
+        if (collision.tag.Equals("Ball"))
+        {
+            health.DealDamage();
+        }
     }
 }
 

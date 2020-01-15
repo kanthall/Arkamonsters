@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 9165066866419104475}
   - component: {fileID: 6289674089300137599}
   m_Layer: 0
-  m_Name: EnemyTemporaryProjectile
+  m_Name: EnemyBullet2
   m_TagString: Projectile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -117,10 +117,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e05ac8c2ef0cbb248a6056b7ae0b4335, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 30
   hitParticle: {fileID: 7738655097254150138, guid: f7dee9a68e3e4b54c9c3bf1deda37c0a,
     type: 3}
   wallHit: {fileID: 4733252371550512530, guid: 5e94e114aea08894d9c8a88fefcfd9c2, type: 3}
+  xMin: -1
+  xMax: 1
+  yMin: -1
+  yMax: -10
+  speed: 25
 --- !u!58 &6289674089300137599
 CircleCollider2D:
   m_ObjectHideFlags: 0

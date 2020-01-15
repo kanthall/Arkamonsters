@@ -5,17 +5,31 @@ using UnityEngine;
 public class EnemyProjectile : MonoBehaviour
 {
     Rigidbody2D projectileRigidbody2D;
-    [SerializeField] float speed = 1f;
     [SerializeField] GameObject hitParticle;
     [SerializeField] GameObject wallHit;
     PlayerHealth player;
+
+    [Header("Movement")]
+    [SerializeField] float xMin;
+    [SerializeField] float xMax;
+    [Space(10)]
+    [SerializeField] float yMin;
+    [SerializeField] float yMax;
+    [Space(10)]
+    [SerializeField] float speed = 1f;
 
     void Start()
     {
         player = FindObjectOfType<PlayerHealth>();
         projectileRigidbody2D = GetComponent<Rigidbody2D>();
-        projectileRigidbody2D.velocity = new Vector2(Random.Range(-5f, 5f), Random.Range(1f, -10f) * speed * Time.deltaTime);
+        projectileRigidbody2D.velocity = new Vector2(Random.Range(xMin, xMax), Random.Range(yMin, yMax) * speed * Time.deltaTime);
+        projectileRigidbody2D.rotation = 45f;
         Destroy(gameObject, 7f);
+    }
+
+    private void FixedUpdate()
+    {
+        projectileRigidbody2D.rotation += 5.0f;
     }
 
     void OnTriggerEnter2D(Collider2D collision)
