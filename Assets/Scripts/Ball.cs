@@ -7,11 +7,12 @@ public class Ball : MonoBehaviour
     [Header("Movement")]
     [SerializeField] float xPush = 2f;
     [SerializeField] float yPush = 15f;
-    [SerializeField] float randomFactor = 0.5f;
+    [SerializeField] float randomFactor = 1f;
 
     [Space(10)]
     [SerializeField] Paddle paddle;
     [SerializeField] AudioClip ballHitSound;
+    [SerializeField] [Range(0, 1)] float ballHitSoundVolume;
 
     [Space(10)]
     Vector2 paddleToBallVector;
@@ -26,7 +27,6 @@ public class Ball : MonoBehaviour
 
         paddleToBallVector = transform.position - paddle.transform.position;
     }
-
 
     void Update()
     {
@@ -64,7 +64,7 @@ public class Ball : MonoBehaviour
 
             if (gameStarted)
             {
-                audio.PlayOneShot(ballHitSound);
+                audio.PlayOneShot(ballHitSound, ballHitSoundVolume);
                 ballRigidBody2D.velocity += velocityTweak;
             }
         }

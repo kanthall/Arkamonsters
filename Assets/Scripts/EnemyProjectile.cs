@@ -5,7 +5,7 @@ using UnityEngine;
 public class EnemyProjectile : MonoBehaviour
 {
     Rigidbody2D projectileRigidbody2D;
-    [SerializeField] GameObject hitParticle;
+    [SerializeField] GameObject playerHitParticle;
     [SerializeField] GameObject wallHit;
     PlayerHealth player;
 
@@ -21,10 +21,10 @@ public class EnemyProjectile : MonoBehaviour
     void Start()
     {
         player = FindObjectOfType<PlayerHealth>();
+
         projectileRigidbody2D = GetComponent<Rigidbody2D>();
         projectileRigidbody2D.velocity = new Vector2(Random.Range(xMin, xMax), Random.Range(yMin, yMax) * speed * Time.deltaTime);
         projectileRigidbody2D.rotation = 45f;
-        Destroy(gameObject, 7f);
     }
 
     private void FixedUpdate()
@@ -38,21 +38,23 @@ public class EnemyProjectile : MonoBehaviour
         {
             Debug.Log("health minus");
             player.DealDamage();
-
-            GameObject particle = Instantiate(hitParticle, transform.position, Quaternion.identity);
-
-            Destroy(particle, 0.5f);
-            Destroy(gameObject);
+            
+            CreateAndDestroy();
         }
 
         if (collision.gameObject.tag.Equals("Wall"))
         {
-            Debug.Log("wall hit");
+            //Debug.Log("wall hit");
 
-            GameObject particle = Instantiate(wallHit, transform.position, Quaternion.identity);
-
-            Destroy(particle, 0.5f);
-            Destroy(gameObject);
+            CreateAndDestroy();
         }
-    } 
+    }
+
+    void CreateAndDestroy()
+    {
+        GameObject particle = Instantiate(playerHitParticle, transform.position, Quaternion.identity);
+
+        Destroy(particle, 0.5f);
+        Destroy(gameObject);
+    }
 }

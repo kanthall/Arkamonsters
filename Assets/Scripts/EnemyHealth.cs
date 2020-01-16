@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MonsterHealth : MonoBehaviour
+public class EnemyHealth : MonoBehaviour
 {
     [SerializeField] int health;
     [SerializeField] int scoreValue;
@@ -38,7 +38,6 @@ public class MonsterHealth : MonoBehaviour
         if (collision.gameObject.tag.Equals("Ball"))
         {
             DealDamage();
-            //Debug.Log("damage dealt to the monster: " + gameObject.name);
 
             if (health <= 0)
             {
@@ -55,13 +54,14 @@ public class MonsterHealth : MonoBehaviour
 
     private void DestroyMonster()
     {
-        //GameObject ps = Instantiate(deathParticle, transform.position, Quaternion.identity);
-        //Destroy(ps, 1f);
+        GameObject ps = Instantiate(deathParticle, transform.position, Quaternion.identity);
+        Destroy(ps, 1f);
+
         if (killLock == false)
         {
             killLock = true;
             score.AddToScore(scoreValue);
-            //Debug.Log("adding points: " + scoreValue);
+
             Object.Destroy(gameObject, 2f);
             level.MonsterKilled();
         }

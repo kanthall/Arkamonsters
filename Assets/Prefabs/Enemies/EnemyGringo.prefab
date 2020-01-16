@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 7259061144927973979}
   - component: {fileID: 5679720199379677248}
   m_Layer: 0
-  m_Name: Gringo
+  m_Name: EnemyGringo
   m_TagString: Monster
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -102,7 +102,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 0.5
+  m_Radius: 0.4
 --- !u!50 &5775854531237710260
 Rigidbody2D:
   serializedVersion: 4
@@ -176,7 +176,6 @@ MonoBehaviour:
   spawnerPosition: {fileID: 8562762602047740519}
   projectile: {fileID: 5037312202987384637, guid: 920c3e9d26d095145a757b41cd8b9484,
     type: 3}
-  spawn: 0
 --- !u!1 &4826252420337112719
 GameObject:
   m_ObjectHideFlags: 0
