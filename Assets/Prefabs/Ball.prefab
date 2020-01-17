@@ -232,10 +232,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   xPush: 2
   yPush: 15
-  randomFactor: 0.5
-  paddle: {fileID: 0}
+  randomFactor: 0.7
   ballHitSound: {fileID: 8300000, guid: 1d2793e9a2601f846a1f6c859d315ba6, type: 3}
   ballHitSoundVolume: 0.15
+  paddle: {fileID: 0}
 --- !u!96 &175739230
 TrailRenderer:
   serializedVersion: 2

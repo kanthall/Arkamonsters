@@ -13,6 +13,7 @@ public class EnemyHealth : MonoBehaviour
     ProjectileSpawner spawner;
     LevelManager level;
     Score score;
+    Collider2D enemyCollider;
 
     void Start()
     {
@@ -26,6 +27,7 @@ public class EnemyHealth : MonoBehaviour
         }
 
         score = FindObjectOfType<Score>();
+        enemyCollider = GetComponent<Collider2D>();
     }
     
     void DealDamage()
@@ -59,6 +61,8 @@ public class EnemyHealth : MonoBehaviour
 
         if (killLock == false)
         {
+            enemyCollider.enabled = false;
+
             killLock = true;
             score.AddToScore(scoreValue);
 

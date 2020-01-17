@@ -10,9 +10,12 @@ public class Ball : MonoBehaviour
     [SerializeField] float randomFactor = 1f;
 
     [Space(10)]
-    [SerializeField] Paddle paddle;
+    [Header("Sound")]
     [SerializeField] AudioClip ballHitSound;
     [SerializeField] [Range(0, 1)] float ballHitSoundVolume;
+
+    [Space(10)]
+    [SerializeField] Paddle paddle;
 
     [Space(10)]
     Vector2 paddleToBallVector;
@@ -30,7 +33,7 @@ public class Ball : MonoBehaviour
 
     void Update()
     {
-        if(!gameStarted)
+        if (!gameStarted)
         {
             LaunchBall();
             LockBallTopaddle();
@@ -39,11 +42,10 @@ public class Ball : MonoBehaviour
 
     void LaunchBall()
     {
-        if(Input.GetMouseButtonDown(0))
+        if (Input.GetMouseButtonDown(0))
         {
             gameStarted = true;
             ballRigidBody2D.velocity = new Vector2(xPush, yPush);
-            //Debug.Log("ball launched");
         }
     }
 
@@ -56,10 +58,11 @@ public class Ball : MonoBehaviour
     void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.collider.tag.Equals("Projectile"))
-            {
+        {
             Debug.Log("projectile");
-            }
-        else {
+        }
+        else
+        {
             Vector2 velocityTweak = new Vector2(Random.Range(0.1f, randomFactor), Random.Range(0.1f, randomFactor));
 
             if (gameStarted)
