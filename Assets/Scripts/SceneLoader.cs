@@ -64,6 +64,11 @@ public class SceneLoader : MonoBehaviour
         Application.Quit();
     }
 
+    public void MainMenu()
+    {
+        SceneManager.LoadScene("1Scene_Menu");
+    }
+
     IEnumerator WaitBeforeGameOver(int waitTime)
     {
         yield return new WaitForSeconds(waitTime);

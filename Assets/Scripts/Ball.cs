@@ -8,6 +8,7 @@ public class Ball : MonoBehaviour
     [SerializeField] float xPush = 2f;
     [SerializeField] float yPush = 15f;
     [SerializeField] float randomFactor = 1f;
+    [SerializeField] float thrust = 10f;
 
     [Space(10)]
     [Header("Sound")]
@@ -57,9 +58,9 @@ public class Ball : MonoBehaviour
 
     void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.collider.tag.Equals("Projectile"))
+        if (collision.collider.tag.Equals("Projectile")) 
         {
-            Debug.Log("projectile");
+            Debug.Log("Projectile Hit");
         }
         else
         {
@@ -70,6 +71,12 @@ public class Ball : MonoBehaviour
                 audio.PlayOneShot(ballHitSound, ballHitSoundVolume);
                 ballRigidBody2D.velocity += velocityTweak;
             }
+        }
+
+        if (collision.collider.tag.Equals("Paddle"))
+        {
+            ballRigidBody2D.AddForce(transform.up * thrust);
+            Debug.Log("Force Added");
         }
     }
 }

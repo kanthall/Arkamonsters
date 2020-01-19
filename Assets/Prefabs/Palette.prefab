@@ -123,11 +123,11 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
   health: 0
   playerHit: {fileID: 8300000, guid: caf0f5bf4910914458c4eecbc6df2c1e, type: 3}
-  playerHitVolume: 0.555
+  playerHitVolume: 0.75
+  flashTime: 0.01
+  flashSquare: {fileID: 0}
 --- !u!114 &5725407786840420883
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -168,9 +168,10 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: 0.36083364, y: 0.5000707}
-      - {x: -0.5079961, y: 0.500901}
-      - {x: -1.1866555, y: 0.48159993}
+    - - {x: 0.45375776, y: 0.4999076}
+      - {x: 0.36083364, y: 0.5000707}
+      - {x: -0.48551416, y: 0.49640465}
+      - {x: -1.1844072, y: 0.4321394}
       - {x: -1.1858587, y: 0.18691123}
       - {x: -0.80612564, y: -0.125}
       - {x: 0.27811098, y: -0.12115914}
@@ -178,7 +179,7 @@ PolygonCollider2D:
       - {x: 1.0008445, y: 0.058618605}
       - {x: 1.0008845, y: 0.18361866}
       - {x: 1.1866555, y: 0.19138134}
-      - {x: 1.1840825, y: 0.4786036}
+      - {x: 1.1842599, y: 0.42961383}
 --- !u!82 &582954140
 AudioSource:
   m_ObjectHideFlags: 0

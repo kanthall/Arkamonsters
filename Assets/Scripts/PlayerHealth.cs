@@ -6,6 +6,7 @@ public class PlayerHealth : MonoBehaviour
 {
     [SerializeField] List<GameObject> hearts = new List<GameObject>();
     [SerializeField] int health;
+
     SceneLoader scene;
     CameraShake camera;
 
@@ -13,6 +14,10 @@ public class PlayerHealth : MonoBehaviour
     [SerializeField] AudioClip playerHit;
     [SerializeField] [Range(0, 1)] float playerHitVolume;
     AudioSource audioSource;
+
+    [Header("Flash Square")]
+    [SerializeField] float flashTime;
+    [SerializeField] GameObject flashSquare;
 
     void Start()
     {
@@ -28,6 +33,7 @@ public class PlayerHealth : MonoBehaviour
     {
         health -= 1;
         camera.Shake();
+        StartCoroutine(YellowFlash());
         audioSource.PlayOneShot(playerHit, playerHitVolume);
 
         if (hearts.Count > 0)
@@ -41,5 +47,14 @@ public class PlayerHealth : MonoBehaviour
             Debug.Log("Game ends");
             scene.GameOver();
         }
+    }
+
+    IEnumerator YellowFlash()
+    {
+        flashSquare.GetComponent<SpriteRenderer>().enabled = true;
+
+        yield return new WaitForSeconds(flashTime);
+
+        flashSquare.GetComponent<SpriteRenderer>().enabled = false;
     }
 }

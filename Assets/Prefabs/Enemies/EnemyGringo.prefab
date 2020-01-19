@@ -161,6 +161,8 @@ MonoBehaviour:
     type: 3}
   animator: {fileID: 0}
   killLock: 0
+  flashTime: 0.1
+  flashSquare: {fileID: 0}
 --- !u!114 &5679720199379677248
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -176,6 +178,7 @@ MonoBehaviour:
   spawnerPosition: {fileID: 8562762602047740519}
   projectile: {fileID: 5037312202987384637, guid: 920c3e9d26d095145a757b41cd8b9484,
     type: 3}
+  spawn: 0
 --- !u!1 &4826252420337112719
 GameObject:
   m_ObjectHideFlags: 0

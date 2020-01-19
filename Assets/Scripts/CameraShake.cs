@@ -3,16 +3,17 @@ using System.Collections;
 
 public class CameraShake : MonoBehaviour
 {
+    [Header("Shake Values")]
     [SerializeField] float shakeDecayStart = 0.002f;
     [SerializeField] float shakeIntensityStart = 0.03f;
 
-    private float shakeDecay;
-    private float shakeIntensity;
+    float shakeDecay;
+    float shakeIntensity;
 
-    private Vector3 originPosition;
-    private Quaternion originRotation;
-    private bool shaking;
-    private Transform transformAtOrigin;
+    Vector3 originPosition;
+    Quaternion originRotation;
+    bool shaking;
+    Transform transformAtOrigin;
 
     void OnEnable()
     {
