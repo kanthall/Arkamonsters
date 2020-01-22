@@ -1,187 +1,187 @@
 fileFormatVersion: 2
-guid: ad900036e55c0784ab2ec3461965f482
+guid: cabd8b6df668caf458974dea86ed59a5
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2178667954888804208
-    second: ProjectileGreen_0
+      213: -2564276164715363640
+    second: ProjectilerRed_0
   - first:
-      213: -5284254622715171270
-    second: ProjectileGreen_1
+      213: 4362058186570275924
+    second: ProjectilerRed_1
   - first:
-      213: -3999657708217748674
-    second: ProjectileGreen_2
+      213: -3093370758141046795
+    second: ProjectilerRed_2
   - first:
-      213: 8714375644799799699
-    second: ProjectileGreen_3
+      213: -6158934761490858155
+    second: ProjectilerRed_3
   - first:
-      213: -7535539387719584497
-    second: ProjectileGreen_4
+      213: 3237230598743767003
+    second: ProjectilerRed_4
   - first:
-      213: -638225704634553837
-    second: ProjectileGreen_5
+      213: -7304162682527072083
+    second: ProjectilerRed_5
   - first:
-      213: -3893816442047507385
-    second: ProjectileGreen_6
+      213: 1214163314923410771
+    second: ProjectilerRed_6
   - first:
-      213: -4478920140926199525
-    second: ProjectileGreen_7
+      213: -1946849039328672718
+    second: ProjectilerRed_7
   - first:
-      213: 3642629780762430296
-    second: ProjectileGreen_8
+      213: 7018224060573819102
+    second: ProjectilerRed_8
   - first:
-      213: 3557670401474066690
-    second: ProjectileGreen_9
+      213: -3210483379053534041
+    second: ProjectilerRed_9
   - first:
-      213: 7885109920262914430
-    second: ProjectileGreen_10
+      213: 3873730448801591677
+    second: ProjectilerRed_10
   - first:
-      213: -7083741545922207622
-    second: ProjectileGreen_11
+      213: 8884447521740193987
+    second: ProjectilerRed_11
   - first:
-      213: -586067766301502843
-    second: ProjectileGreen_12
+      213: 7111445226603434020
+    second: ProjectilerRed_12
   - first:
-      213: -5134048427263691049
-    second: ProjectileGreen_13
+      213: -959837585139304854
+    second: ProjectilerRed_13
   - first:
-      213: 2786243304610528405
-    second: ProjectileGreen_14
+      213: 5245089038725719439
+    second: ProjectilerRed_14
   - first:
-      213: 2034763871424187499
-    second: ProjectileGreen_15
+      213: 7348740989149125856
+    second: ProjectilerRed_15
   - first:
-      213: 8270874177083803740
-    second: ProjectileGreen_16
+      213: -1942676890127825900
+    second: ProjectilerRed_16
   - first:
-      213: 2531853211447906984
-    second: ProjectileGreen_17
+      213: -5602671562512946620
+    second: ProjectilerRed_17
   - first:
-      213: -6870018672270576832
-    second: ProjectileGreen_18
+      213: -1167100030007935584
+    second: ProjectilerRed_18
   - first:
-      213: 2481763587444434310
-    second: ProjectileGreen_19
+      213: -5765825323469247377
+    second: ProjectilerRed_19
   - first:
-      213: -6677200438964330843
-    second: ProjectileGreen_20
+      213: 4384254186603489554
+    second: ProjectilerRed_20
   - first:
-      213: -5231102506462195861
-    second: ProjectileGreen_21
+      213: 30480099744827141
+    second: ProjectilerRed_21
   - first:
-      213: 6838657960069627982
-    second: ProjectileGreen_22
+      213: 2848315045286671632
+    second: ProjectilerRed_22
   - first:
-      213: -5889289513990046196
-    second: ProjectileGreen_23
+      213: -2302014228217485536
+    second: ProjectilerRed_23
   - first:
-      213: 2058826652742569275
-    second: ProjectileGreen_24
+      213: -5371574696856254054
+    second: ProjectilerRed_24
   - first:
-      213: -1550190245919699761
-    second: ProjectileGreen_25
+      213: 524824086709560404
+    second: ProjectilerRed_25
   - first:
-      213: -7459004001635218297
-    second: ProjectileGreen_26
+      213: 5083407032631213614
+    second: ProjectilerRed_26
   - first:
-      213: 3747085410483252536
-    second: ProjectileGreen_27
+      213: 6786389527322947738
+    second: ProjectilerRed_27
   - first:
-      213: 3839874468622265413
-    second: ProjectileGreen_28
+      213: 4928686033756553927
+    second: ProjectilerRed_28
   - first:
-      213: 1093252031195024628
-    second: ProjectileGreen_29
+      213: -7852792255312822747
+    second: ProjectilerRed_29
   - first:
-      213: 3200787399935266948
-    second: ProjectileGreen_30
+      213: 9041253154093675875
+    second: ProjectilerRed_30
   - first:
-      213: 8672194734959160260
-    second: ProjectileGreen_31
+      213: -2025931602938777570
+    second: ProjectilerRed_31
   - first:
-      213: -8605615583631635680
-    second: ProjectileGreen_32
+      213: -7305651145815295910
+    second: ProjectilerRed_32
   - first:
-      213: -7450352689696061820
-    second: ProjectileGreen_33
+      213: 6096142900180247617
+    second: ProjectilerRed_33
   - first:
-      213: -3274979131721942165
-    second: ProjectileGreen_34
+      213: -2127040529565804512
+    second: ProjectilerRed_34
   - first:
-      213: 4846152257369084781
-    second: ProjectileGreen_35
+      213: -852643250075467632
+    second: ProjectilerRed_35
   - first:
-      213: 5017294304724450050
-    second: ProjectileGreen_36
+      213: -3826257273405354114
+    second: ProjectilerRed_36
   - first:
-      213: -721573753451373567
-    second: ProjectileGreen_37
+      213: -3473100866234045048
+    second: ProjectilerRed_37
   - first:
-      213: -4170188497684814006
-    second: ProjectileGreen_38
+      213: 2949428122035301321
+    second: ProjectilerRed_38
   - first:
-      213: 6925313053672812610
-    second: ProjectileGreen_39
+      213: 5646197860739184269
+    second: ProjectilerRed_39
   - first:
-      213: -1131059341243217465
-    second: ProjectileGreen_40
+      213: -1542154376989645429
+    second: ProjectilerRed_40
   - first:
-      213: -6838713942753277398
-    second: ProjectileGreen_41
+      213: -4709494708181629682
+    second: ProjectilerRed_41
   - first:
-      213: 7276211858810790479
-    second: ProjectileGreen_42
+      213: -7993727325211076765
+    second: ProjectilerRed_42
   - first:
-      213: -4467613483396058439
-    second: ProjectileGreen_43
+      213: -813753219159744379
+    second: ProjectilerRed_43
   - first:
-      213: -2555228044563209195
-    second: ProjectileGreen_44
+      213: 9217532164194932072
+    second: ProjectilerRed_44
   - first:
-      213: 5039233865381113177
-    second: ProjectileGreen_45
+      213: -6496751623942255084
+    second: ProjectilerRed_45
   - first:
-      213: -2038130407747218048
-    second: ProjectileGreen_46
+      213: -2429003915112703331
+    second: ProjectilerRed_46
   - first:
-      213: 1488473701526059447
-    second: ProjectileGreen_47
+      213: 2767044760291109739
+    second: ProjectilerRed_47
   - first:
-      213: 2330317625384112644
-    second: ProjectileGreen_48
+      213: 4508415910456979926
+    second: ProjectilerRed_48
   - first:
-      213: 7289909795666509023
-    second: ProjectileGreen_49
+      213: 7887692003805638532
+    second: ProjectilerRed_49
   - first:
-      213: -1156047657475208428
-    second: ProjectileGreen_50
+      213: 2179765808579175272
+    second: ProjectilerRed_50
   - first:
-      213: -6533796178273429852
-    second: ProjectileGreen_51
+      213: -635114896057164299
+    second: ProjectilerRed_51
   - first:
-      213: -5376613662755410781
-    second: ProjectileGreen_52
+      213: -2234969365695781586
+    second: ProjectilerRed_52
   - first:
-      213: 3584186481636461870
-    second: ProjectileGreen_53
+      213: -2962378958210290708
+    second: ProjectilerRed_53
   - first:
-      213: 8743933510446965977
-    second: ProjectileGreen_54
+      213: 6649039534420579117
+    second: ProjectilerRed_54
   - first:
-      213: -6028121552282639117
-    second: ProjectileGreen_55
+      213: 4617477925267656170
+    second: ProjectilerRed_55
   - first:
-      213: -5894848127883223238
-    second: ProjectileGreen_56
+      213: 2125542603161966951
+    second: ProjectilerRed_56
   - first:
-      213: -5098462557993128033
-    second: ProjectileGreen_57
+      213: 2597324960454080174
+    second: ProjectilerRed_57
   - first:
-      213: -8958641605947978592
-    second: ProjectileGreen_58
+      213: 4787998457200432615
+    second: ProjectilerRed_58
   - first:
-      213: 3706970076336285270
-    second: ProjectileGreen_59
+      213: -3698531328669147833
+    second: ProjectilerRed_59
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -278,7 +278,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: ProjectileGreen_0
+      name: ProjectilerRed_0
       rect:
         serializedVersion: 2
         x: 0
@@ -292,14 +292,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e9a1ed15cb018d24084fd59ea5449263
-      internalID: 2178667954888804208
+      spriteID: ec650d13dcaa25b428599d5842804329
+      internalID: -2564276164715363640
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ProjectileGreen_1
+      name: ProjectilerRed_1
       rect:
         serializedVersion: 2
         x: 128
@@ -313,14 +313,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 23b681a79ea26fb44b9b539811f2363b
-      internalID: -5284254622715171270
+      spriteID: 6e29b242df4ece34ab6954fcc2aae56e
+      internalID: 4362058186570275924
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ProjectileGreen_2
+      name: ProjectilerRed_2
       rect:
         serializedVersion: 2
         x: 256
@@ -334,14 +334,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 47965aef0e8f3f74890afe5eb8594e4f
-      internalID: -3999657708217748674
+      spriteID: 03afe84ccef51e643923ec53fc06b981
+      internalID: -3093370758141046795
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ProjectileGreen_3
+      name: ProjectilerRed_3
       rect:
         serializedVersion: 2
         x: 384
@@ -355,14 +355,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f7468e2ca509a20459b3e7e79a2e1a8c
-      internalID: 8714375644799799699
+      spriteID: 1dfe4621c0548ed46a944ee600cd9f31
+      internalID: -6158934761490858155
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ProjectileGreen_4
+      name: ProjectilerRed_4
       rect:
         serializedVersion: 2
         x: 512
@@ -376,14 +376,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 526e4d3e9524b134d8033c78b003b499
-      internalID: -7535539387719584497
+      spriteID: c2d29e9d52821b749a57646921175a7d
+      internalID: 3237230598743767003
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ProjectileGreen_5
+      name: ProjectilerRed_5
       rect:
         serializedVersion: 2
         x: 640
@@ -397,14 +397,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6fdca9cd03e896b489c8c4a8cd1286bb
-      internalID: -638225704634553837
+      spriteID: 9db4c3205b8d86744a3c40bbf30cb9ed
+      internalID: -7304162682527072083
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ProjectileGreen_6
+      name: ProjectilerRed_6
       rect:
         serializedVersion: 2
         x: 768
@@ -418,14 +418,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ef8b2d99cf5ca19438604ccd011e9b79
-      internalID: -3893816442047507385
+      spriteID: b85e660ef3ca4c644b10d2cbff1a027c
+      internalID: 1214163314923410771
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ProjectileGreen_7
+      name: ProjectilerRed_7
       rect:
         serializedVersion: 2
         x: 896
@@ -439,14 +439,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3aa78322cef608742b03b93498af06f6
-      internalID: -4478920140926199525
+      spriteID: d3bf98e91593b7640bfb2c32ac612e3c
+      internalID: -1946849039328672718
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ProjectileGreen_8
+      name: ProjectilerRed_8
       rect:
         serializedVersion: 2
         x: 0
@@ -460,14 +460,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6b75306ca998a924cabbc3c2d8fe16e4
-      internalID: 3642629780762430296
+      spriteID: f007fa93821ab8043882e06f8893b316
+      internalID: 7018224060573819102
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ProjectileGreen_9
+      name: ProjectilerRed_9
       rect:
         serializedVersion: 2
         x: 128
@@ -481,14 +481,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 93a7fa85ac48b494eb0527a0e9b7b76f
-      internalID: 3557670401474066690
+      spriteID: b3fe898937a707f49bb019b012cf0a20
+      internalID: -3210483379053534041
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ProjectileGreen_10
+      name: ProjectilerRed_10
       rect:
         serializedVersion: 2
         x: 256
@@ -502,14 +502,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5f57fd824ab6e514d9631e4777bce896
-      internalID: 7885109920262914430
+      spriteID: 0c882afd91376da44ab0d4fd47039e23
+      internalID: 3873730448801591677
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ProjectileGreen_11
+      name: ProjectilerRed_11
       rect:
         serializedVersion: 2
         x: 384
@@ -523,14 +523,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 04a4216f507c2ef4491a3ce003fd93b6
-      internalID: -7083741545922207622
+      spriteID: 9030dac5889733944a530f80816a958d
+      internalID: 8884447521740193987
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ProjectileGreen_12
+      name: ProjectilerRed_12
       rect:
         serializedVersion: 2
         x: 512
@@ -544,14 +544,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 35db443c314e2b3498dbd51570a94e47
-      internalID: -586067766301502843
+      spriteID: 68adda5f835fea64b9ed522d720aab93
+      internalID: 7111445226603434020
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ProjectileGreen_13
+      name: ProjectilerRed_13
       rect:
         serializedVersion: 2
         x: 640
@@ -565,14 +565,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f1fc37616326c224abf52077b76fa770
-      internalID: -5134048427263691049
+      spriteID: a275395d2f2adb44cba616529a2ff6cf
+      internalID: -959837585139304854
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ProjectileGreen_14
+      name: ProjectilerRed_14
       rect:
         serializedVersion: 2
         x: 768
@@ -586,14 +586,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 893fcad2adef3a447930e91e29f30e5f
-      internalID: 2786243304610528405
+      spriteID: b516bd30206f51e4d9e0edf5570270b3
+      internalID: 5245089038725719439
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ProjectileGreen_15
+      name: ProjectilerRed_15
       rect:
         serializedVersion: 2
         x: 896
@@ -607,14 +607,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2b9f637c7bc710141964b332afc124ed
-      internalID: 2034763871424187499
+      spriteID: ba675ab529655b64da402e231c0aa8d3
+      internalID: 7348740989149125856
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ProjectileGreen_16
+      name: ProjectilerRed_16
       rect:
         serializedVersion: 2
         x: 0
@@ -628,14 +628,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ad8e5d56c9efce44cb10f8efee944752
-      internalID: 8270874177083803740
+      spriteID: a62981d13315b544fab46b348d948411
+      internalID: -1942676890127825900
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ProjectileGreen_17
+      name: ProjectilerRed_17
       rect:
         serializedVersion: 2
         x: 128
@@ -649,14 +649,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4fd04eb66a3e2af46b558cee9ed1ec25
-      internalID: 2531853211447906984
+      spriteID: 48c24ff3c70036d40ad9b5f4985e20c4
+      internalID: -5602671562512946620
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ProjectileGreen_18
+      name: ProjectilerRed_18
       rect:
         serializedVersion: 2
         x: 256
@@ -670,14 +670,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fef338bd2f8cd654aa708c6a2b80a707
-      internalID: -6870018672270576832
+      spriteID: b3c90f82dbaa4a242b3992397e774897
+      internalID: -1167100030007935584
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ProjectileGreen_19
+      name: ProjectilerRed_19
       rect:
         serializedVersion: 2
         x: 384
@@ -691,14 +691,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 25a54f4973ba54e4fa555d4e5226e413
-      internalID: 2481763587444434310
+      spriteID: fd40c96b8f74b2d4db4c470df0b7b2d4
+      internalID: -5765825323469247377
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ProjectileGreen_20
+      name: ProjectilerRed_20
       rect:
         serializedVersion: 2
         x: 512
@@ -712,14 +712,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f8212fccc1996674e9e9480c9677c347
-      internalID: -6677200438964330843
+      spriteID: 8dfc092822df6984aa12a7103177bbf8
+      internalID: 4384254186603489554
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ProjectileGreen_21
+      name: ProjectilerRed_21
       rect:
         serializedVersion: 2
         x: 640
@@ -733,14 +733,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ba6df1d111282d144ae1e314cdcde890
-      internalID: -5231102506462195861
+      spriteID: c337393d8af56e143b10fb0801359e04
+      internalID: 30480099744827141
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ProjectileGreen_22
+      name: ProjectilerRed_22
       rect:
         serializedVersion: 2
         x: 768
@@ -754,14 +754,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6aaad518873de6f44b20f74edf0bc3b5
-      internalID: 6838657960069627982
+      spriteID: 98d534f1be110a94e954c2ffd207484d
+      internalID: 2848315045286671632
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ProjectileGreen_23
+      name: ProjectilerRed_23
       rect:
         serializedVersion: 2
         x: 896
@@ -775,14 +775,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1aff87d0fd4bf88409535cd2a0ae0867
-      internalID: -5889289513990046196
+      spriteID: 87931cc1f9cb13546b54062658cfa73d
+      internalID: -2302014228217485536
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ProjectileGreen_24
+      name: ProjectilerRed_24
       rect:
         serializedVersion: 2
         x: 0
@@ -796,14 +796,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8a0f0e85c50d00e4d929a99d60627c73
-      internalID: 2058826652742569275
+      spriteID: c91fc528459f912479de2562eec8b313
+      internalID: -5371574696856254054
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ProjectileGreen_25
+      name: ProjectilerRed_25
       rect:
         serializedVersion: 2
         x: 128
@@ -817,14 +817,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e9e739c74f7b5384080e298637190050
-      internalID: -1550190245919699761
+      spriteID: c535a1e544162844abf20066e80662b7
+      internalID: 524824086709560404
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ProjectileGreen_26
+      name: ProjectilerRed_26
       rect:
         serializedVersion: 2
         x: 256
@@ -838,14 +838,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9402349b0e99ec24e949c3f1aa033609
-      internalID: -7459004001635218297
+      spriteID: be9759c8fb9d33540b034619b8d50dd2
+      internalID: 5083407032631213614
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ProjectileGreen_27
+      name: ProjectilerRed_27
       rect:
         serializedVersion: 2
         x: 384
@@ -859,14 +859,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c695f85c49ddd6a46b760249f385f3d4
-      internalID: 3747085410483252536
+      spriteID: 5053bff86555bd34baae45251584cbe1
+      internalID: 6786389527322947738
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ProjectileGreen_28
+      name: ProjectilerRed_28
       rect:
         serializedVersion: 2
         x: 512
@@ -880,14 +880,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4a03e9c14af4a714581bd74f91dbe3c9
-      internalID: 3839874468622265413
+      spriteID: bc852020278afaf4ab1b3844dd411918
+      internalID: 4928686033756553927
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ProjectileGreen_29
+      name: ProjectilerRed_29
       rect:
         serializedVersion: 2
         x: 640
@@ -901,14 +901,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0428ace0c97e4d84eba7cc7a867138bf
-      internalID: 1093252031195024628
+      spriteID: 1541a21e45a836241a972ff34ea4d024
+      internalID: -7852792255312822747
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ProjectileGreen_30
+      name: ProjectilerRed_30
       rect:
         serializedVersion: 2
         x: 768
@@ -922,14 +922,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f1b10d0f1a8eb4949b485b4d1e79a2dd
-      internalID: 3200787399935266948
+      spriteID: 347a6863412dac6489d0efd5b4c766a6
+      internalID: 9041253154093675875
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ProjectileGreen_31
+      name: ProjectilerRed_31
       rect:
         serializedVersion: 2
         x: 896
@@ -943,14 +943,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cfecb6317c9836d488504d80b483d33b
-      internalID: 8672194734959160260
+      spriteID: d83415e6377bf6e4788949758a9bf73c
+      internalID: -2025931602938777570
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ProjectileGreen_32
+      name: ProjectilerRed_32
       rect:
         serializedVersion: 2
         x: 0
@@ -964,14 +964,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 46cb800bd6879da44a5f6e1d7fb6f0ab
-      internalID: -8605615583631635680
+      spriteID: d15924d92a2db294b978466bf385e381
+      internalID: -7305651145815295910
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ProjectileGreen_33
+      name: ProjectilerRed_33
       rect:
         serializedVersion: 2
         x: 128
@@ -985,14 +985,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2ca79ddad5401a749bef01d6ab00b97b
-      internalID: -7450352689696061820
+      spriteID: 21d02cb4cd3091148a34540f774e9709
+      internalID: 6096142900180247617
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ProjectileGreen_34
+      name: ProjectilerRed_34
       rect:
         serializedVersion: 2
         x: 256
@@ -1006,14 +1006,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 79af87b4e2635a34087104cec79672cb
-      internalID: -3274979131721942165
+      spriteID: 260716c74f66b1141a53004d996f4b7f
+      internalID: -2127040529565804512
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ProjectileGreen_35
+      name: ProjectilerRed_35
       rect:
         serializedVersion: 2
         x: 384
@@ -1027,14 +1027,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 15c8e499106e29247a640893ef645e59
-      internalID: 4846152257369084781
+      spriteID: 5d98cfef7446c1149907bb133d390d38
+      internalID: -852643250075467632
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ProjectileGreen_36
+      name: ProjectilerRed_36
       rect:
         serializedVersion: 2
         x: 512
@@ -1048,14 +1048,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8cb4ea7b96fa5de45ba63f35a60347d1
-      internalID: 5017294304724450050
+      spriteID: 7b989d709410ec147920524dba77ed1f
+      internalID: -3826257273405354114
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ProjectileGreen_37
+      name: ProjectilerRed_37
       rect:
         serializedVersion: 2
         x: 640
@@ -1069,14 +1069,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a5f382b76f80d4a46b852babc3290621
-      internalID: -721573753451373567
+      spriteID: 62ba6f7e51955dc4f971f605775c5b30
+      internalID: -3473100866234045048
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ProjectileGreen_38
+      name: ProjectilerRed_38
       rect:
         serializedVersion: 2
         x: 768
@@ -1090,14 +1090,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 86653fa3fc1b7ec459185726f997e204
-      internalID: -4170188497684814006
+      spriteID: f3a7135383af4234fb412a3cfd8a2913
+      internalID: 2949428122035301321
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ProjectileGreen_39
+      name: ProjectilerRed_39
       rect:
         serializedVersion: 2
         x: 896
@@ -1111,14 +1111,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6988903c7f316d144ba7d9bc0a0fe09a
-      internalID: 6925313053672812610
+      spriteID: 5c866aa1f9c2f194cb2c87543d50951b
+      internalID: 5646197860739184269
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ProjectileGreen_40
+      name: ProjectilerRed_40
       rect:
         serializedVersion: 2
         x: 0
@@ -1132,14 +1132,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4205fac273ec9414fb62f5ef5133bc49
-      internalID: -1131059341243217465
+      spriteID: 883eab0c4153c3f4d952b5c7ffe99393
+      internalID: -1542154376989645429
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ProjectileGreen_41
+      name: ProjectilerRed_41
       rect:
         serializedVersion: 2
         x: 128
@@ -1153,14 +1153,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 59baa1a3cf90db04094793bb19232877
-      internalID: -6838713942753277398
+      spriteID: a57fdc9ad2dbb564b94df3fb6483733c
+      internalID: -4709494708181629682
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ProjectileGreen_42
+      name: ProjectilerRed_42
       rect:
         serializedVersion: 2
         x: 256
@@ -1174,14 +1174,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c43cbff7faf63da40a5ffa55e0f8a6d6
-      internalID: 7276211858810790479
+      spriteID: d5efdc0b7f1d26241899974c5e71dec9
+      internalID: -7993727325211076765
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ProjectileGreen_43
+      name: ProjectilerRed_43
       rect:
         serializedVersion: 2
         x: 384
@@ -1195,14 +1195,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0072a06baff1140419da8a0ae92cc837
-      internalID: -4467613483396058439
+      spriteID: 22d87a97aadd7fd41b745f0499e66b8e
+      internalID: -813753219159744379
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ProjectileGreen_44
+      name: ProjectilerRed_44
       rect:
         serializedVersion: 2
         x: 512
@@ -1216,14 +1216,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c2df328b7516d3d41b7609f55cafb2ed
-      internalID: -2555228044563209195
+      spriteID: ac603c8e07d856641860a3d717b61dc9
+      internalID: 9217532164194932072
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ProjectileGreen_45
+      name: ProjectilerRed_45
       rect:
         serializedVersion: 2
         x: 640
@@ -1237,14 +1237,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7b2de7bacbf9d3a4cbd79f0f1f1e4132
-      internalID: 5039233865381113177
+      spriteID: be7f0ca49ec8c9749bf4640edea0e7cb
+      internalID: -6496751623942255084
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ProjectileGreen_46
+      name: ProjectilerRed_46
       rect:
         serializedVersion: 2
         x: 768
@@ -1258,14 +1258,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9f7a85cd2351d7b4f920741d6adc088f
-      internalID: -2038130407747218048
+      spriteID: 461dc8d503189614fb65ab9336931807
+      internalID: -2429003915112703331
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ProjectileGreen_47
+      name: ProjectilerRed_47
       rect:
         serializedVersion: 2
         x: 896
@@ -1279,14 +1279,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8213b35ad62829b4fb99cd7f6da9e3de
-      internalID: 1488473701526059447
+      spriteID: e3258a9b6869a6b49a2f64ad7295b80e
+      internalID: 2767044760291109739
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ProjectileGreen_48
+      name: ProjectilerRed_48
       rect:
         serializedVersion: 2
         x: 0
@@ -1300,14 +1300,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 004331785acfe8348893a45508e46b22
-      internalID: 2330317625384112644
+      spriteID: fda8cd427899b5b44b87eca78f70edad
+      internalID: 4508415910456979926
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ProjectileGreen_49
+      name: ProjectilerRed_49
       rect:
         serializedVersion: 2
         x: 128
@@ -1321,14 +1321,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 80efd3e923fc85643a6e2e4f148019eb
-      internalID: 7289909795666509023
+      spriteID: 460d4c22d39b53d4abcca54581c43566
+      internalID: 7887692003805638532
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ProjectileGreen_50
+      name: ProjectilerRed_50
       rect:
         serializedVersion: 2
         x: 256
@@ -1342,14 +1342,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b319e13a8f2954f4196169a849a61de9
-      internalID: -1156047657475208428
+      spriteID: 6dbfdb9aac21aa3419ba45b7a6422018
+      internalID: 2179765808579175272
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ProjectileGreen_51
+      name: ProjectilerRed_51
       rect:
         serializedVersion: 2
         x: 384
@@ -1363,14 +1363,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5dfc1c2b9f0fbe547a3b091d8283df9d
-      internalID: -6533796178273429852
+      spriteID: 1df5873a66d491642803746317c740bc
+      internalID: -635114896057164299
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ProjectileGreen_52
+      name: ProjectilerRed_52
       rect:
         serializedVersion: 2
         x: 512
@@ -1384,14 +1384,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 59eabc7197aa072419db6d6dc9103cbe
-      internalID: -5376613662755410781
+      spriteID: 6961f84e7a3e37f4fac3b14bc269f1d3
+      internalID: -2234969365695781586
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ProjectileGreen_53
+      name: ProjectilerRed_53
       rect:
         serializedVersion: 2
         x: 640
@@ -1405,14 +1405,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8eb1deaa42b1e664f9993ddcda8dbbff
-      internalID: 3584186481636461870
+      spriteID: 25737e5723bd7ea42bb13a89a26dc6e7
+      internalID: -2962378958210290708
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ProjectileGreen_54
+      name: ProjectilerRed_54
       rect:
         serializedVersion: 2
         x: 768
@@ -1426,14 +1426,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8dd42c8a2fde9ca419877b820472e2ab
-      internalID: 8743933510446965977
+      spriteID: f051595ed50456048aadbd092dce5a73
+      internalID: 6649039534420579117
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ProjectileGreen_55
+      name: ProjectilerRed_55
       rect:
         serializedVersion: 2
         x: 896
@@ -1447,14 +1447,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 44946f3fc12bb674e9105d5bddf93910
-      internalID: -6028121552282639117
+      spriteID: aacb0db7859a55743a9b734b151c742f
+      internalID: 4617477925267656170
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ProjectileGreen_56
+      name: ProjectilerRed_56
       rect:
         serializedVersion: 2
         x: 0
@@ -1468,14 +1468,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5d60c977d0a137345810d5ba8e818a28
-      internalID: -5894848127883223238
+      spriteID: 63081bf91404978488c8298170e79e43
+      internalID: 2125542603161966951
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ProjectileGreen_57
+      name: ProjectilerRed_57
       rect:
         serializedVersion: 2
         x: 128
@@ -1489,14 +1489,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4da6f9d4ae4a2d9438c9a4fafccde44f
-      internalID: -5098462557993128033
+      spriteID: f4e71c02620683d46bfb142bcff70fdb
+      internalID: 2597324960454080174
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ProjectileGreen_58
+      name: ProjectilerRed_58
       rect:
         serializedVersion: 2
         x: 256
@@ -1510,14 +1510,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 58e20c7bf35d13d459bc92f3fb7dcc18
-      internalID: -8958641605947978592
+      spriteID: ddb4ec4fe1567854796ce9c9c3783213
+      internalID: 4787998457200432615
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ProjectileGreen_59
+      name: ProjectilerRed_59
       rect:
         serializedVersion: 2
         x: 384
@@ -1531,8 +1531,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 24dca0a46ce59ae4ba38131445a44e82
-      internalID: 3706970076336285270
+      spriteID: 6ef8234c2ba56154ab886fea7e0b2f89
+      internalID: -3698531328669147833
       vertices: []
       indices: 
       edges: []

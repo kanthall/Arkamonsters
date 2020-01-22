@@ -9,6 +9,7 @@ public class PlayerHealth : MonoBehaviour
 
     SceneLoader scene;
     CameraShake camera;
+    Chromatic chromatic;
 
     [Header("Sound")]
     [SerializeField] AudioClip playerHit;
@@ -22,6 +23,7 @@ public class PlayerHealth : MonoBehaviour
     void Start()
     {
         camera = FindObjectOfType<CameraShake>();
+        chromatic = FindObjectOfType<Chromatic>();
 
         health = hearts.Count;
         scene = FindObjectOfType<SceneLoader>();
@@ -33,6 +35,7 @@ public class PlayerHealth : MonoBehaviour
     {
         health -= 1;
         camera.Shake();
+        chromatic.UseChromaticAbberation();
         StartCoroutine(YellowFlash());
         audioSource.PlayOneShot(playerHit, playerHitVolume);
 

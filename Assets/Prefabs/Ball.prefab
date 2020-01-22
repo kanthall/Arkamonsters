@@ -73,7 +73,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 3
   m_Sprite: {fileID: 21300000, guid: 6cc2ac7f011590a4d942d24175448938, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -233,6 +233,7 @@ MonoBehaviour:
   xPush: 2
   yPush: 15
   randomFactor: 0.7
+  thrust: 10
   ballHitSound: {fileID: 8300000, guid: 1d2793e9a2601f846a1f6c859d315ba6, type: 3}
   ballHitSoundVolume: 0.15
   paddle: {fileID: 0}

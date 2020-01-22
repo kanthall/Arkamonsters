@@ -68,7 +68,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -1
+  m_SortingOrder: 1
   m_Sprite: {fileID: -1443858764993152642, guid: 63eff5f69eea3954aa73d6a6032e9172,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -150,7 +150,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 5
   m_Sprite: {fileID: 21300000, guid: b5f7f33475b7e224bb48985d349bbf92, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 0.09803922}
   m_FlipX: 0
@@ -174,7 +174,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9369072304472414c8b9aaa7d4015677, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  textures: []
+  textures:
+  - {fileID: 21300000, guid: b5f7f33475b7e224bb48985d349bbf92, type: 3}
+  - {fileID: 21300000, guid: 80c0a334ee10d7944969a92af1beaf5c, type: 3}
+  - {fileID: 21300000, guid: ced621fa9a6c5b54dac5f14904207406, type: 3}
+  - {fileID: 21300000, guid: f1f8e1849e7e2014396d9a5fbb168be9, type: 3}
 --- !u!1 &2627744838848842123
 GameObject:
   m_ObjectHideFlags: 0
@@ -243,7 +247,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 3
   m_Sprite: {fileID: 2017717089674383335, guid: 63eff5f69eea3954aa73d6a6032e9172,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -325,7 +329,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 3
   m_Sprite: {fileID: -7236002783979611547, guid: 63eff5f69eea3954aa73d6a6032e9172,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -546,7 +550,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 3
   m_Sprite: {fileID: -7311426478004651602, guid: 63eff5f69eea3954aa73d6a6032e9172,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -628,7 +632,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 3
   m_Sprite: {fileID: 6092569346282212493, guid: 63eff5f69eea3954aa73d6a6032e9172,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -736,7 +740,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 3
   m_Sprite: {fileID: 4606860759290849277, guid: 63eff5f69eea3954aa73d6a6032e9172,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -800,7 +804,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2627744839615110757}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -4.3199997, y: -5.44, z: 0}
+  m_LocalPosition: {x: -4.3199997, y: -7.3599997, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2511466246544387278}
@@ -843,14 +847,14 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -1
+  m_SortingOrder: 2
   m_Sprite: {fileID: -1443858764993152642, guid: 63eff5f69eea3954aa73d6a6032e9172,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 2
-  m_Size: {x: 9, y: 10.000549}
+  m_Size: {x: 9, y: 11.834096}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -916,7 +920,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5549368522819295591}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -10.559999, y: -6.72, z: 0}
+  m_LocalPosition: {x: -10.719999, y: -6.72, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2511466246544387278}
@@ -959,7 +963,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -1
+  m_SortingOrder: 0
   m_Sprite: {fileID: -1443858764993152642, guid: 63eff5f69eea3954aa73d6a6032e9172,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}

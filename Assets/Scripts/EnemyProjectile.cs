@@ -9,7 +9,7 @@ public class EnemyProjectile : MonoBehaviour
     [SerializeField] GameObject wallHit;
     PlayerHealth player;
 
-    [Header("Movement")]
+    [Header("Movement Params")]
     [SerializeField] float xMin;
     [SerializeField] float xMax;
     [Space(10)]
@@ -17,6 +17,7 @@ public class EnemyProjectile : MonoBehaviour
     [SerializeField] float yMax;
     [Space(10)]
     [SerializeField] float speed = 1f;
+    [SerializeField] float rotation;
 
     void Start()
     {
@@ -29,7 +30,7 @@ public class EnemyProjectile : MonoBehaviour
 
     private void FixedUpdate()
     {
-        projectileRigidbody2D.rotation += 5.0f;
+        projectileRigidbody2D.rotation += rotation;
     }
 
     void OnTriggerEnter2D(Collider2D collision)
