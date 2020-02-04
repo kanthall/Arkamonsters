@@ -66,7 +66,7 @@ public class EnemyHealth : MonoBehaviour
             killLock = true;
             score.AddToScore(scoreValue);
 
-            Object.Destroy(gameObject, 2f);
+            Object.Destroy(gameObject, 1f);
             level.MonsterKilled();
         }
     }

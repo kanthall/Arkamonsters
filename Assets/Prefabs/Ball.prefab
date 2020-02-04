@@ -32,7 +32,8 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0, y: -3.757, z: 0}
   m_LocalScale: {x: 0.25, y: 0.25, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 5930746750276013572}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -231,12 +232,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   xPush: 2
-  yPush: 15
+  yPush: 13
   randomFactor: 0.7
-  thrust: 10
+  thrust: 9
   ballHitSound: {fileID: 8300000, guid: 1d2793e9a2601f846a1f6c859d315ba6, type: 3}
   ballHitSoundVolume: 0.15
   paddle: {fileID: 0}
+  placeToShowParticle: {fileID: 4746429463305959740}
+  paddleHitParticle: {fileID: 4237188585635694064, guid: bd5673b388350f34186976cd2d96672a,
+    type: 3}
 --- !u!96 &175739230
 TrailRenderer:
   serializedVersion: 2
@@ -275,7 +279,7 @@ TrailRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 3
   m_Time: 0.1
   m_Parameters:
     serializedVersion: 3
@@ -351,3 +355,33 @@ TrailRenderer:
   m_MinVertexDistance: 0.1
   m_Autodestruct: 0
   m_Emitting: 1
+--- !u!1 &4746429463305959740
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5930746750276013572}
+  m_Layer: 0
+  m_Name: PlaceToShowParticle
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5930746750276013572
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4746429463305959740}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: -0.5, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1982254898209443495}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

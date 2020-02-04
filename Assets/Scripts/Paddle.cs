@@ -7,6 +7,11 @@ public class Paddle : MonoBehaviour
     [SerializeField] float maxX = 15f;
     [SerializeField] float screenWidthInUnits = 16f;
 
+    /*private void Awake()
+    {
+        transform.position = new Vector2(0f, 0.64f);
+    }*/
+
     void Start()
     {
         Cursor.visible = false;
@@ -24,6 +29,6 @@ public class Paddle : MonoBehaviour
 
     public void ResetPaddlePosition()
     {
-        transform.position = new Vector2(8f, transform.position.y);
+        transform.position = new Vector2(8f, 0.64f);
     }
 }

@@ -37,7 +37,6 @@ public class EnemyProjectile : MonoBehaviour
     {
         if (collision.gameObject.tag.Equals("Paddle"))
         {
-            Debug.Log("health minus");
             player.DealDamage();
             
             CreateAndDestroy();

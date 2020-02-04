@@ -17,12 +17,19 @@ public class Ball : MonoBehaviour
 
     [Space(10)]
     [SerializeField] Paddle paddle;
+    [SerializeField] GameObject placeToShowParticle;
 
     [Space(10)]
+    [SerializeField] GameObject paddleHitParticle;
     Vector2 paddleToBallVector;
     bool gameStarted = false;
     Rigidbody2D ballRigidBody2D;
     AudioSource audio;
+
+    /*private void Awake()
+    {
+        transform.position = new Vector2(0f, 1.28f);
+    }*/
 
     void Start()
     {
@@ -77,6 +84,16 @@ public class Ball : MonoBehaviour
         {
             ballRigidBody2D.AddForce(transform.up * thrust);
             Debug.Log("Force Added");
+
+            var particle = Instantiate(paddleHitParticle, placeToShowParticle.transform.position, Quaternion.identity);
+            Destroy(particle, 0.5f);
         }
+    }
+
+    public void ResetBallPosition()
+    {
+        Vector2 paddlePosition = new Vector2(paddle.transform.position.x, paddle.transform.position.y);
+        transform.position = paddlePosition + paddleToBallVector;
+        gameStarted = false;
     }
 }
