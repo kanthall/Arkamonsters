@@ -7,6 +7,7 @@ public class SceneLoader : MonoBehaviour
     LevelManager level;
     int monsters;
     Score score;
+    Ball ball;
 
     IEnumerator coroutine;
 
@@ -14,6 +15,7 @@ public class SceneLoader : MonoBehaviour
     {
         score = FindObjectOfType<Score>();
         coroutine = WaitBeforeGameOver(2);
+        ball = FindObjectOfType<Ball>();
     }
 
     private void Update()
@@ -38,6 +40,7 @@ public class SceneLoader : MonoBehaviour
             int currentScene = SceneManager.GetActiveScene().buildIndex;
             SceneManager.LoadScene(currentScene);
             score.ReloadScore();
+            ball.ResetBallPosition();
         }
     }
 

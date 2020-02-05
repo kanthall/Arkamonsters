@@ -7,10 +7,12 @@ public class LevelManager : MonoBehaviour
     int hearts;
 
     SceneLoader scene;
+    Ball ball;
 
     private void Start()
     {
         scene = FindObjectOfType<SceneLoader>();
+        ball = FindObjectOfType<Ball>();
     }
 
     public void MonstersCount()
@@ -24,6 +26,7 @@ public class LevelManager : MonoBehaviour
         if (monsters <= 0)
         {
             scene.NextLevel();
+            ball.ResetBallPosition();
         }
     }
 

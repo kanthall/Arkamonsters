@@ -31,6 +31,19 @@ public class Ball : MonoBehaviour
         transform.position = new Vector2(0f, 1.28f);
     }*/
 
+    private void Awake()
+    {
+        int ball = FindObjectsOfType<Ball>().Length;
+        if (ball > 1)
+        {
+            Destroy(gameObject);
+        }
+        else
+        {
+            DontDestroyOnLoad(gameObject);
+        }
+    }
+
     void Start()
     {
         ballRigidBody2D = GetComponent<Rigidbody2D>();
@@ -83,7 +96,7 @@ public class Ball : MonoBehaviour
         if (collision.collider.tag.Equals("Paddle"))
         {
             ballRigidBody2D.AddForce(transform.up * thrust);
-            Debug.Log("Force Added");
+            //Debug.Log("Force Added");
 
             var particle = Instantiate(paddleHitParticle, placeToShowParticle.transform.position, Quaternion.identity);
             Destroy(particle, 0.5f);

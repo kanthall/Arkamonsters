@@ -20,6 +20,19 @@ public class PlayerHealth : MonoBehaviour
     [SerializeField] float flashTime;
     [SerializeField] GameObject flashSquare;
 
+    private void Awake()
+    {
+        int paddle = FindObjectsOfType<PlayerHealth>().Length;
+        if (paddle > 1)
+        {
+            Destroy(gameObject);
+        }
+        else
+        {
+            DontDestroyOnLoad(gameObject);
+        }
+    }
+
     void Start()
     {
         camera = FindObjectOfType<CameraShake>();
