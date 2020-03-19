@@ -44,9 +44,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   monsters:
+  - {fileID: 2163141475921539868, guid: 10a8601a75f9e2146adb518e317e2866, type: 3}
   - {fileID: 3567185504764111326, guid: d34e181bf9f632645bd7d80da3cce424, type: 3}
   - {fileID: 1979931725172700506, guid: 2b189fe7f781e54419a116ea561c9638, type: 3}
   - {fileID: 3974705370012488121, guid: acf4b5ef838f7f24da4c8bd96d493f5e, type: 3}
-  - {fileID: 995297004777844007, guid: 20fc7667f6d7d3a40aa33f1da3c28385, type: 3}
-  - {fileID: 7645717528798003526, guid: baec34f9b322d0145a4c0af8eaf3be45, type: 3}
-  - {fileID: 4568692567593343259, guid: e67771f5f5c9e3c4aa2d3e82d57d7b36, type: 3}
+  - {fileID: 7428627137385418695, guid: d209d17383f1f814f99a274ed45a0669, type: 3}
