@@ -7,6 +7,19 @@ public class Chromatic : MonoBehaviour
     ChromaticAberration chromaticAberration = null;
     [SerializeField] PostProcessVolume volume;
 
+    private void Awake()
+    {
+        int ball = FindObjectsOfType<Chromatic>().Length;
+        if (ball > 1)
+        {
+            Destroy(gameObject);
+        }
+        else
+        {
+            DontDestroyOnLoad(gameObject);
+        }
+    }
+
     void Start()
     {
         volume.profile.TryGetSettings(out chromaticAberration);

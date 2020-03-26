@@ -25,6 +25,7 @@ public class Ball : MonoBehaviour
     bool gameStarted = false;
     Rigidbody2D ballRigidBody2D;
     AudioSource audio;
+    CameraShake shake;
 
     /*private void Awake()
     {
@@ -50,6 +51,8 @@ public class Ball : MonoBehaviour
         audio = GetComponent<AudioSource>();
 
         paddleToBallVector = transform.position - paddle.transform.position;
+
+        shake = FindObjectOfType<CameraShake>();
     }
 
     void Update()
@@ -84,6 +87,9 @@ public class Ball : MonoBehaviour
         }
         else
         {
+            if (collision.collider.tag.Equals("Monster"))
+            shake.Shake();
+
             Vector2 velocityTweak = new Vector2(Random.Range(0.1f, randomFactor), Random.Range(0.1f, randomFactor));
 
             if (gameStarted)

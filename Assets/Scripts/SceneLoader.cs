@@ -8,14 +8,14 @@ public class SceneLoader : MonoBehaviour
     int monsters;
     Score score;
     Ball ball;
-
-    IEnumerator coroutine;
+    NextLevelCanvas levelCanvas;
 
     private void Start()
     {
         score = FindObjectOfType<Score>();
-        coroutine = WaitBeforeGameOver(2);
+        //coroutine = WaitBeforeGameOver(2);
         ball = FindObjectOfType<Ball>();
+        levelCanvas = FindObjectOfType<NextLevelCanvas>();
     }
 
     private void Update()
@@ -46,15 +46,9 @@ public class SceneLoader : MonoBehaviour
 
     public void NextLevel()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
-        StartCoroutine(coroutine);
-    }
-
-    public void GameOver()
-    {
-        score.ReloadScore();
-        StartCoroutine(coroutine);
-        SceneManager.LoadScene("4Scene_GameOver");
+        levelCanvas.ShowWarning();
+        StartCoroutine("WaitBeforeNextLevel");
+        ball.ResetBallPosition();
     }
 
     public void Credits()
@@ -72,8 +66,28 @@ public class SceneLoader : MonoBehaviour
         SceneManager.LoadScene("1Scene_Menu");
     }
 
-    IEnumerator WaitBeforeGameOver(int waitTime)
+    public void GameOver()
     {
-        yield return new WaitForSeconds(waitTime);
+        score.ReloadScore();
+        StartCoroutine("WaitBeforeGameOver");
+    }
+
+    public void LoadFirstLevel()
+    {
+        SceneManager.LoadScene("2Scene_level1");
+    }
+
+    IEnumerator WaitBeforeGameOver()
+    {
+        yield return new WaitForSeconds(5);
+        Debug.Log("Loading next scene");
+        SceneManager.LoadScene("4Scene_GameOver");
+    }
+
+    IEnumerator WaitBeforeNextLevel()
+    {
+        yield return new WaitForSeconds(5);
+        Debug.Log("Loading next level");
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 }

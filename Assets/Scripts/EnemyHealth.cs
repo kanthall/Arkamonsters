@@ -1,25 +1,33 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class EnemyHealth : MonoBehaviour
 {
+
+    [Header("Values")]
     [SerializeField] int health;
     [SerializeField] int scoreValue;
-    [SerializeField] GameObject deathParticle;
-    [SerializeField] Animator animator;
     [SerializeField] bool killLock;
+    [SerializeField] int timesHit;
+
+    [Header("Objects")]
+    [SerializeField] GameObject deathParticle;
+    [SerializeField] GameObject hitParticle;
+    [SerializeField] Sprite[] hitSprites;
 
     ProjectileSpawner spawner;
     LevelManager level;
     Score score;
     Collider2D enemyCollider;
+    SpriteRenderer sprite;
 
     void Start()
     {
         level = FindObjectOfType<LevelManager>();
         spawner = GetComponent<ProjectileSpawner>();
-        animator = GetComponent<Animator>();
+        sprite = GetComponent<SpriteRenderer>();
 
         if(tag == "Monster")
         {
@@ -40,24 +48,54 @@ public class EnemyHealth : MonoBehaviour
         if (collision.gameObject.tag.Equals("Ball"))
         {
             DealDamage();
-
-            if (health <= 0)
+            if (health > 0)
             {
-                animator.SetTrigger("Die");
+                GameObject hit = Instantiate(hitParticle, transform.position, Quaternion.identity);
+                Destroy(hit, 0.3f);
+            }
+
+            timesHit++;
+            int maxHits = hitSprites.Length + 1;
+
+            StartCoroutine("ChangeColor");
+            
+            if (health <= 0) 
+            {
                 spawner.SpawnOnDeath();
                 DestroyMonster();
             }
             else
             {
-                animator.SetTrigger("Hit");
+                ShowNextHitSprite();
+                Debug.Log("Loading next sprite");
             }
+        }
+    }
+
+    IEnumerator ChangeColor()
+    {
+        sprite.color = Color.red;
+        yield return new WaitForSeconds(0.1f);
+        sprite.color = Color.white;
+    }
+
+    private void ShowNextHitSprite()
+    {
+        int spriteIndex = timesHit - 1;
+        if (hitSprites[spriteIndex] != null)
+        {
+            GetComponent<SpriteRenderer>().sprite = hitSprites[spriteIndex];
+        }
+        else
+        {
+            Debug.LogError("Block sprite is missing from array" + gameObject.name);
         }
     }
 
     private void DestroyMonster()
     {
-        GameObject ps = Instantiate(deathParticle, transform.position, Quaternion.identity);
-        Destroy(ps, 1f);
+        GameObject particle = Instantiate(deathParticle, transform.position, Quaternion.identity);
+        Destroy(particle, 1f);
 
         if (killLock == false)
         {
@@ -66,7 +104,7 @@ public class EnemyHealth : MonoBehaviour
             killLock = true;
             score.AddToScore(scoreValue);
 
-            Object.Destroy(gameObject, 1f);
+            Destroy(gameObject, 0.2f);
             level.MonsterKilled();
         }
     }

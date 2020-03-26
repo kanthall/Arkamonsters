@@ -6,7 +6,6 @@ public class EnemyProjectile : MonoBehaviour
 {
     Rigidbody2D projectileRigidbody2D;
     [SerializeField] GameObject playerHitParticle;
-    [SerializeField] GameObject wallHit;
     PlayerHealth player;
 
     [Header("Movement Params")]
@@ -26,6 +25,8 @@ public class EnemyProjectile : MonoBehaviour
         projectileRigidbody2D = GetComponent<Rigidbody2D>();
         projectileRigidbody2D.velocity = new Vector2(Random.Range(xMin, xMax), Random.Range(yMin, yMax) * speed * Time.deltaTime);
         projectileRigidbody2D.rotation = 45f;
+
+        Destroy(gameObject, 10.0f);
     }
 
     private void FixedUpdate()
@@ -39,13 +40,6 @@ public class EnemyProjectile : MonoBehaviour
         {
             player.DealDamage();
             
-            CreateAndDestroy();
-        }
-
-        if (collision.gameObject.tag.Equals("Wall"))
-        {
-            //Debug.Log("wall hit");
-
             CreateAndDestroy();
         }
     }

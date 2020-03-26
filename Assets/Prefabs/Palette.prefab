@@ -427,8 +427,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f60b2b397e2106f4892fe2017c1108f4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  minX: 4.5
-  maxX: 11.5
+  minX: -0.96
+  maxX: 16.96
   screenWidthInUnits: 16
 --- !u!60 &831272343
 PolygonCollider2D:
