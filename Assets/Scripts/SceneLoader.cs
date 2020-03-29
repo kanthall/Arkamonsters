@@ -74,7 +74,7 @@ public class SceneLoader : MonoBehaviour
 
     public void LoadFirstLevel()
     {
-        SceneManager.LoadScene("2Scene_level1");
+        SceneManager.LoadScene("2Scene_level0");
     }
 
     IEnumerator WaitBeforeGameOver()
@@ -86,7 +86,7 @@ public class SceneLoader : MonoBehaviour
 
     IEnumerator WaitBeforeNextLevel()
     {
-        yield return new WaitForSeconds(5);
+        yield return new WaitForSeconds(1);
         Debug.Log("Loading next level");
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }

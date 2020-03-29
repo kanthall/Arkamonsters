@@ -189,7 +189,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: VERSION 0.16
+  m_Text: VERSION 0.17
 --- !u!222 &217636743
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5381,7 +5381,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 0
-  m_Volume: 0.35
+  m_Volume: 0.1
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -5478,7 +5478,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tracks:
-  - {fileID: 8300000, guid: 33aa27fd22f475e4c90cb1530efe10f0, type: 3}
+  - {fileID: 8300000, guid: 230a71fa7b4957c4298bd12a178b6639, type: 3}
   audioSource: {fileID: 1206511379}
 --- !u!1 &1375205064
 GameObject:

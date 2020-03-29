@@ -5,6 +5,7 @@ public class NextLevelCanvas : MonoBehaviour
 { 
     [SerializeField] Canvas levelCanvas;
 
+    /*
     private void Awake()
     {
         int ball = FindObjectsOfType<NextLevelCanvas>().Length;
@@ -16,7 +17,7 @@ public class NextLevelCanvas : MonoBehaviour
         {
             DontDestroyOnLoad(gameObject);
         }
-    }
+    }*/
 
     private void Start()
     {
@@ -31,7 +32,7 @@ public class NextLevelCanvas : MonoBehaviour
     private IEnumerator WaveCanvasEnable()
     {
         levelCanvas.enabled = true;
-        yield return new WaitForSeconds(5);
+        yield return new WaitForSeconds(1);
         levelCanvas.enabled = false;
     }
 }

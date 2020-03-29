@@ -10,7 +10,6 @@ GameObject:
   m_Component:
   - component: {fileID: 612154956288970529}
   - component: {fileID: 7873468112455668561}
-  - component: {fileID: 1708080898997708567}
   - component: {fileID: 4271106386754680793}
   - component: {fileID: -3689028023422728765}
   - component: {fileID: -4564951503142238820}
@@ -29,7 +28,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8344167539044737611}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4.9116993, y: 1.7810879, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -85,25 +84,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!95 &1708080898997708567
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8344167539044737611}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: eb5ed929459c4e84f8523778fd6d804c, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!58 &4271106386754680793
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -140,7 +120,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!114 &-4564951503142238820
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -155,9 +135,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerHitParticle: {fileID: 338842105047748375, guid: aeec03e9766e60d42878b330720a53dc,
     type: 3}
-  xMin: -5
-  xMax: 5
+  xMin: -1
+  xMax: 2
   yMin: -1
   yMax: -6
-  speed: 20
-  rotation: 5
+  speed: 30
+  rotation: 0.5

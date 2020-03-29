@@ -138,10 +138,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   health: 4
   scoreValue: 50
-  deathParticle: {fileID: 3157749782088636855, guid: 6fa1a444783adda4b94595f002a76841,
-    type: 3}
   killLock: 0
   timesHit: 0
+  deathParticle: {fileID: 6460995076865744459, guid: f5903f8d57c84b3408324cbf949b8325,
+    type: 3}
   hitParticle: {fileID: 3516523407073662024, guid: 64fbe31602f3a9d47b1a72d0d24d0ac7,
     type: 3}
   hitSprites: []
@@ -158,8 +158,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnerPosition: {fileID: 4779062508278024284}
-  projectile: {fileID: 9161262102739006482, guid: f1b5b92fb458e6d4a8727372b5e79ff5,
+  projectile: {fileID: 9161262102739006482, guid: e9320f2c7d9d6a543a08f8395c9aeced,
     type: 3}
+  spawnCount: 1
   spawn: 0
 --- !u!95 &-2404558494024754686
 Animator:

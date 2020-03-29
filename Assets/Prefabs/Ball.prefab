@@ -236,8 +236,8 @@ MonoBehaviour:
   yPush: 13
   randomFactor: 0.7
   thrust: 9
-  ballHitSound: {fileID: 8300000, guid: 1d2793e9a2601f846a1f6c859d315ba6, type: 3}
-  ballHitSoundVolume: 0.15
+  ballHitSound: {fileID: 8300000, guid: caf0f5bf4910914458c4eecbc6df2c1e, type: 3}
+  ballHitSoundVolume: 0.35
   paddle: {fileID: 0}
   placeToShowParticle: {fileID: 4746429463305959740}
   paddleHitParticle: {fileID: 4237188585635694064, guid: bd5673b388350f34186976cd2d96672a,
