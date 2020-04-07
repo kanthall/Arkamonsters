@@ -188,7 +188,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnerPosition: {fileID: 8323932383629273754}
-  projectile: {fileID: 9161262102739006482, guid: e065e38b6935b084d9fb3076742bdd57,
+  projectile: {fileID: 9161262102739006482, guid: c9b117ca04e9d5149a760d32de0afed9,
     type: 3}
   spawnCount: 1
   spawn: 0

@@ -144,6 +144,7 @@ MonoBehaviour:
   hitParticle: {fileID: 3516523407073662024, guid: 64fbe31602f3a9d47b1a72d0d24d0ac7,
     type: 3}
   hitSprites: []
+  prob: {fileID: 11400000, guid: 0bf8d0f0a3925e847a68b9912cffb546, type: 2}
 --- !u!114 &5422619710568667794
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -157,7 +158,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnerPosition: {fileID: 8291411715815396744}
-  projectile: {fileID: 9161262102739006482, guid: 5a14ed18742a4b74b961f56bf60f2377,
+  projectile: {fileID: 9161262102739006482, guid: c9b117ca04e9d5149a760d32de0afed9,
     type: 3}
   spawnCount: 1
   spawn: 0

@@ -11,6 +11,7 @@ public class Texture : MonoBehaviour
     {
         spriteR = GetComponent<SpriteRenderer>();
         spriteR.sprite = GetRandomSprite();
+        Debug.Log(spriteR.sprite.name);
     }
 
     Sprite GetRandomSprite()

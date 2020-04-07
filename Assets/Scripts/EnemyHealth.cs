@@ -23,11 +23,15 @@ public class EnemyHealth : MonoBehaviour
     Collider2D enemyCollider;
     SpriteRenderer sprite;
 
+    [Header("Probability")]
+    [SerializeField] Probability prob;
+
     void Start()
     {
         level = FindObjectOfType<LevelManager>();
         spawner = GetComponent<ProjectileSpawner>();
         sprite = GetComponent<SpriteRenderer>();
+
 
         if(tag == "Monster")
         {
@@ -75,7 +79,7 @@ public class EnemyHealth : MonoBehaviour
     IEnumerator ChangeColor()
     {
         sprite.color = Color.red;
-        yield return new WaitForSeconds(0.1f);
+        yield return new WaitForSeconds(0.3f);
         sprite.color = Color.white;
     }
 
@@ -94,6 +98,8 @@ public class EnemyHealth : MonoBehaviour
 
     private void DestroyMonster()
     {
+        RandomNumber();
+
         GameObject particle = Instantiate(deathParticle, transform.position, Quaternion.identity);
         Destroy(particle, 1f);
 
@@ -106,6 +112,20 @@ public class EnemyHealth : MonoBehaviour
 
             Destroy(gameObject, 0.2f);
             level.MonsterKilled();
+        }
+    }
+
+    private void RandomNumber()
+    {
+        int test; 
+        test = (UnityEngine.Random.Range(prob.minValue, prob.maxValue));
+
+        Debug.Log(test);
+
+        if (test == 5)
+        {
+            var obj = Instantiate(prob.objectToSpawn, transform.position, Quaternion.identity);
+            Destroy(obj, 3f);
         }
     }
 }

@@ -9,7 +9,7 @@ public class ProjectileSpawner : MonoBehaviour
 
     public void SpawnOnDeath()
     {
-        for (int i = 0; i <= spawnCount; i++)
+        for (int i = 0; i < spawnCount; i++)
         {
             if (spawn <= spawnCount)
             {
