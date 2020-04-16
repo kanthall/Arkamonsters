@@ -24,7 +24,7 @@ public class EnemyHealth : MonoBehaviour
     SpriteRenderer sprite;
 
     [Header("Probability")]
-    [SerializeField] Probability prob;
+    [SerializeField] Probability probability;
 
     void Start()
     {
@@ -32,8 +32,7 @@ public class EnemyHealth : MonoBehaviour
         spawner = GetComponent<ProjectileSpawner>();
         sprite = GetComponent<SpriteRenderer>();
 
-
-        if(tag == "Monster")
+        if (tag == "Monster")
         {
             level.MonstersCount();
         }
@@ -67,6 +66,7 @@ public class EnemyHealth : MonoBehaviour
             {
                 spawner.SpawnOnDeath();
                 DestroyMonster();
+                SpawnPowerUp();
             }
             else
             {
@@ -98,8 +98,6 @@ public class EnemyHealth : MonoBehaviour
 
     private void DestroyMonster()
     {
-        RandomNumber();
-
         GameObject particle = Instantiate(deathParticle, transform.position, Quaternion.identity);
         Destroy(particle, 1f);
 
@@ -115,17 +113,16 @@ public class EnemyHealth : MonoBehaviour
         }
     }
 
-    private void RandomNumber()
+    private void SpawnPowerUp()
     {
-        int test; 
-        test = (UnityEngine.Random.Range(prob.minValue, prob.maxValue));
+        int chanceValue; 
+        chanceValue = (UnityEngine.Random.Range(probability.minValue, probability.maxValue));
 
-        Debug.Log(test);
+        //Debug.Log(chanceValue);
 
-        if (test == 5)
+        if (chanceValue > 70)
         {
-            var obj = Instantiate(prob.objectToSpawn, transform.position, Quaternion.identity);
-            Destroy(obj, 3f);
+            Instantiate(probability.objectToSpawn, transform.position, Quaternion.identity);
         }
     }
 }

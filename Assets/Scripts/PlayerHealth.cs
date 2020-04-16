@@ -6,10 +6,14 @@ public class PlayerHealth : MonoBehaviour
 {
     [SerializeField] List<GameObject> hearts = new List<GameObject>();
     [SerializeField] int health;
+    [SerializeField] int maxHealth;
 
     SceneLoader scene;
     CameraShake camera;
     Chromatic chromatic;
+
+    Vector2 temp;
+    int actualSize = 0;
 
     [Header("Sound")]
     [SerializeField] AudioClip playerHit;
@@ -19,6 +23,7 @@ public class PlayerHealth : MonoBehaviour
     [Header("Flash Square")]
     [SerializeField] float flashTime;
     [SerializeField] GameObject flashSquare;
+
 
     private void Awake()
     {
@@ -39,6 +44,7 @@ public class PlayerHealth : MonoBehaviour
         chromatic = FindObjectOfType<Chromatic>();
 
         health = hearts.Count;
+        maxHealth = health;
         scene = FindObjectOfType<SceneLoader>();
 
         audioSource = GetComponent<AudioSource>();
@@ -63,6 +69,64 @@ public class PlayerHealth : MonoBehaviour
             Debug.Log("Game over");
             scene.GameOver();
         }
+    }
+
+    public void AddHealth()
+    {
+        if (health < maxHealth)
+        {
+            Debug.Log("I can add health");
+        }
+        else
+        {
+            Debug.Log("Health max");
+        }
+    }
+
+    public void SizeUp()
+    {
+        if (actualSize < 2)
+        {
+            temp = transform.localScale;
+
+            temp.x += 0.25f;
+
+            transform.localScale = temp;
+            actualSize++;
+
+            Debug.Log("SizeUP " + actualSize);
+        }
+        else
+        {
+            Debug.Log("Resize prevent");
+            return;
+        }
+    }
+
+    public void SizeDown()
+    {
+        if (actualSize > -1)
+        {
+            temp = transform.localScale;
+
+            temp.x -= 0.25f;
+
+            transform.localScale = temp;
+            actualSize--;
+
+            Debug.Log("SizeDOWN " + actualSize);
+        }
+        else
+        {
+            Debug.Log("Resize prevent");
+            return;
+        }
+    }
+
+    public void ResetPaddleSize()
+    {
+        actualSize = 0;
+        Debug.Log("Paddle Reset");
     }
 
     IEnumerator YellowFlash()

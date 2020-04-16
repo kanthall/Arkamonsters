@@ -153,6 +153,7 @@ MonoBehaviour:
   hitParticle: {fileID: 3516523407073662024, guid: 64fbe31602f3a9d47b1a72d0d24d0ac7,
     type: 3}
   hitSprites: []
+  probability: {fileID: 11400000, guid: 4cc812742d344a24eb2e29d8c6383568, type: 2}
 --- !u!114 &1102627039222684986
 MonoBehaviour:
   m_ObjectHideFlags: 0

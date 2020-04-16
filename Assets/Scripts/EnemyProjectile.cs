@@ -11,9 +11,11 @@ public class EnemyProjectile : MonoBehaviour
     [Header("Movement Params")]
     [SerializeField] float xMin;
     [SerializeField] float xMax;
+
     [Space(10)]
     [SerializeField] float yMin;
     [SerializeField] float yMax;
+
     [Space(10)]
     [SerializeField] float speed = 1f;
     [SerializeField] float rotation;
@@ -26,7 +28,7 @@ public class EnemyProjectile : MonoBehaviour
         projectileRigidbody2D.velocity = new Vector2(Random.Range(xMin, xMax), Random.Range(yMin, yMax) * speed * Time.deltaTime);
         projectileRigidbody2D.rotation = 45f;
 
-        Destroy(gameObject, 10.0f);
+        Destroy(gameObject, 15.0f);
     }
 
     private void FixedUpdate()
@@ -40,11 +42,11 @@ public class EnemyProjectile : MonoBehaviour
         {
             player.DealDamage();
             
-            CreateAndDestroy();
+            CreateAndDestroyParticle();
         }
     }
 
-    void CreateAndDestroy()
+    void CreateAndDestroyParticle()
     {
         GameObject particle = Instantiate(playerHitParticle, transform.position, Quaternion.identity);
 

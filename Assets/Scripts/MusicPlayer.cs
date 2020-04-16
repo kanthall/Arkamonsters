@@ -32,6 +32,12 @@ public class MusicPlayer : MonoBehaviour
             audioSource.clip = GetRandomClip();
             audioSource.Play();
         }
+
+        if(Input.GetKeyDown(KeyCode.T))
+        {
+            Debug.Log("random track");
+            audioSource.clip = GetRandomClip();
+        }
     }
 
     private AudioClip GetRandomClip()

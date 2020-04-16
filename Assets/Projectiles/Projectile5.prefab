@@ -12,7 +12,6 @@ GameObject:
   - component: {fileID: 4932120715853755408}
   - component: {fileID: -8464000302617434150}
   - component: {fileID: -1096672041748984319}
-  - component: {fileID: 9150477142757007514}
   - component: {fileID: -550999623046769407}
   m_Layer: 0
   m_Name: Projectile5
@@ -122,26 +121,6 @@ CircleCollider2D:
   m_Offset: {x: 0.02, y: -0.05}
   serializedVersion: 2
   m_Radius: 0.41
---- !u!114 &9150477142757007514
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9161262102739006482}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e05ac8c2ef0cbb248a6056b7ae0b4335, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  playerHitParticle: {fileID: 338842105047748375, guid: aeec03e9766e60d42878b330720a53dc,
-    type: 3}
-  xMin: -1
-  xMax: 1
-  yMin: -1
-  yMax: -10
-  speed: 25
-  rotation: 1
 --- !u!82 &-550999623046769407
 AudioSource:
   m_ObjectHideFlags: 0

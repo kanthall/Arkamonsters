@@ -20,8 +20,9 @@ public class LoseCollider : MonoBehaviour
     {
         if (collision.tag.Equals("Ball"))
         {
-            health.DealDamage();
+            //health.DealDamage();
             paddle.ResetPaddlePosition();
+            //health.ResetPaddleSize();
             ball.ResetBallPosition();
         }
     }

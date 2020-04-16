@@ -189,7 +189,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: VERSION 0.18
+  m_Text: VERSION 0.19
 --- !u!222 &217636743
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5478,7 +5478,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tracks:
-  - {fileID: 8300000, guid: 230a71fa7b4957c4298bd12a178b6639, type: 3}
+  - {fileID: 8300000, guid: 33e15a6552f17bb42afd6094f2bb3470, type: 3}
+  - {fileID: 8300000, guid: 550ccc45076412042a32a726ed5fca41, type: 3}
+  - {fileID: 8300000, guid: 3d62a6d67f245f047823d0c0210f67f2, type: 3}
+  - {fileID: 8300000, guid: 070827dca67dfd5429e0dacc4b7df0cc, type: 3}
+  - {fileID: 8300000, guid: ef48fd4a0cccbe146a9649172f1bd058, type: 3}
   audioSource: {fileID: 1206511379}
 --- !u!1 &1375205064
 GameObject:

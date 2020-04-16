@@ -135,8 +135,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerHitParticle: {fileID: 338842105047748375, guid: aeec03e9766e60d42878b330720a53dc,
     type: 3}
-  xMin: -1
-  xMax: 2
+  xMin: 0
+  xMax: 1
   yMin: -1
   yMax: -6
   speed: 30
